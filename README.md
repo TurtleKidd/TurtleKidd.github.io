@@ -2,7 +2,7 @@
 
 	<div class="d-flex justify-content-center align-items-start mx-auto" style="max-width:1500px;">
 
-		<div style="width:100%;max-width:850px;background:rgba(255,255,255,0.4);border:1px solid rgba(255,255,255,0.8);border-radius:70px;margin-bottom:120px;">
+		<div style="width:100%;max-width:10050px;background:rgba(255,255,255,0.4);border:1px solid rgba(255,255,255,0.8);border-radius:70px;margin-bottom:120px;">
 
 			<div class="p-2 d-flex justify-content-between align-items-center" style="background:#3D5F9A;color:rgb(255,255,255);font-weight:bold;font-size:13px;border-bottom:1px solid rgba(0,74,153,0.5);text-align:center;">
 				<img src="https://frutigeraeroarchive.org/images/icons/media/wmc1.ico" style="height:18px;margin-right:5px;vertical-align:middle;" alt="wmc1.ico"> TURTLEKID
