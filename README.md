@@ -1,24 +1,21 @@
 <!--main container-->
-<div style="display: flex; margin: auto; height: 700px; width: 10100px;">
+<div style="display: flex; margin: auto; height: 700; width: 1010;">
 	<!--credit pls dont remove-->
-	<div style="position: absolute; margin-top: 485px; margin-left:530px; z-index:3;"><a href="https://toyhou.se/selike"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/96678249_KltkIsiNnH1CM9f.png" title="code by selkie" class="fr-fic fr-dii" width="35" height="35"></a></div>
-	<!-- more credit pls dont remove-->
-	<div style="position: absolute; margin-top: 461px; margin-left:492px; z-index:3;">
-		<a href="https://toyhou.se/28428809.f2u-extensive-character"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/96678249_KltkIsiNnH1CM9f.png" style="opacity: 0.01;" title="relationship tabs inspired by Sheeps" class="fr-fic fr-dii" width="35" height="35"></a>
+	<div style="position: absolute; margin-top: 485; margin-left:530; z-index:3;"><a href="https://toyhou.se/selike"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/96678249_KltkIsiNnH1CM9f.png" title="code by 
 	</div>
 	<!--song title-->
 	<div style="position: absolute; margin-top: 461px; margin-left:568px; z-index:3;">
 		<a href="https://youtu.be/gS915QqAl6U?si=TAPsM9ToEaB2aT9T"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/96678249_KltkIsiNnH1CM9f.png" style="opacity: 0.01;" title="song: TS2 PS2 OST - Another World" class="fr-fic fr-dii" width="35" height="35"></a>
 	</div>
 	<!-- featured characters on the left-->
-	<div style="height: 490px; width:224px; background-position: center; background-repeat:no-repeat; margin-left:230px; margin-top:53px;">
-		<div style="width:224px; margin-top:10px;">
+	<div style="height: 490; width:224; background-position: center; background-repeat:no-repeat; margin-left:230; margin-top:53;">
+		<div style="width:224; margin-top:10;">
 			<div class="card w-100 bg-transparent border-0">
 				<!--tabs-->
-				<div class="card bg-transparent border-0" style="width:100%;">
-					<div class="row nav nav-tabs text-center pb-0 mx-2 mb-1" style="border:0px; height:100%;">
+				<div class="card bg-transparent border-0" style="width:100;">
+					<div class="row nav nav-tabs text-center pb-0 mx-2 mb-1" style="border:0; height:100;">
 						<!-- tab 1 -->
-						<a class="col-2 btn btn-block btn-outline-primary show active" data-toggle="tab" href="#one" style="color:#6da5b6; border-color:#6da5b6; background-color:#6da5b6; border-radius:10px;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/96677702_XJ470MhYNtizMad.png" style="min-width: 25px; max-width: 25px;" class="fr-fic fr-dii" width="25" height="27.1719"></a>
+						<a class="col-2 btn btn-block btn-outline-primary show active" data-toggle="tab" href="#one" style="color:#6da5b6; border-color:#6da5b6; background-color:#6da5b6; border-radius:10px;"><img src="https://f2.toyhou.se/file/f2-toyhou-se/images/96677702_XJ470MhYNtizMad.png" style="min-width: 25; max-width: 25;" class="fr-fic fr-dii" width="25" height="27.1719"></a>
 						<!-- tab 2 -->
 						<a class="col-2 btn btn-block btn-outline-primary show" data-toggle="tab" href="#two" style="color:#6da5b6; border-color:#6da5b6; background-color:#6da5b6; border-radius:10px;">yu<img src="https://f2.toyhou.se/file/f2-toyhou-se/images/96677721_aH9gPjkjolPQVjw.png" style="min-width: 29px; max-width: 49px;" class="fr-fic fr-dii" width="29" height="26.8438"></a>
 						<!-- tab 3 -->
