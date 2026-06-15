@@ -1,4 +1,5 @@
-<div class="container-fluid p-0" style='background:url("https://images.artfight.net/character/fd3498rXiRHJctWpsDeGsVF7dLMT9lyar4Bk2w7I0gpHwge7Q6VfoUApTcLW.jpeg?t=1778779772") no-repeat fixed center;background-size:cover;min-height:720vh;padding:700px 20px;font-family:Verdana, Tahoma, sans-serif;color:#333;'>
+ <!--bg-->
+<div style="background: url(https://25.media.tumblr.com/abcd76b0ea646caa2ad7f545dfa46736/tumblr_mpzc14UJGz1sa1o6mo1_500.gif) center fixed ; position: absolute; top: 0; background-size:cover; bottom: 0; left: 0; width: 100%; z-index: -3;"></div>
 <!DOCTYPE html>
 <html lang="en">
 <head>
