@@ -4,11 +4,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>my page</title>
+  <title>:p</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>hello world</h1>
+  <h1>UNDER CONSTRUCTION</h1>
   <p>this is my first page.</p>
   <script src="script.js"></script>
 </body>
