@@ -1,6 +1,3 @@
-
-<!DOCTYPE html>
-<html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -38,7 +35,7 @@ body, html {
   height: 100%;
 }
 
-#Ho {background-color: red;}
+#Home {background-color: red;}
 #News {background-color: green;}
 #Contact {background-color: blue;}
 #About {background-color: orange;}
@@ -46,14 +43,14 @@ body, html {
 </head>
 <body>
 
-<button class="tablink" onclick="openPage('Ho', this, 'red')">Ho</button>
+<button class="tablink" onclick="openPage('Home', this, 'red')">Bingus</button>
 <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
 <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
 <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
 
-<div id="Ho" class="tabcontent">
-  <h3>Home</h3>
-  <p>Bingo biongo.</p>
+<div id="Home" class="tabcontent">
+  <h3>Bingus</h3>
+  <p>Ingus bigus</p>
 </div>
 
 <div id="News" class="tabcontent">
@@ -91,4 +88,3 @@ document.getElementById("defaultOpen").click();
 </script>
    
 </body>
-</html> 
