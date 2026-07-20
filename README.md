@@ -7,7 +7,7 @@
 /* Set height of body and the document to 100% */
 body, html {
   height: 100%;
-  margin: 0;
+  margin: 100%;
   font-family: Arial;
 }
 
@@ -21,7 +21,7 @@ body, html {
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
-  width: 25%;
+  width: 75%;
 }
 
 .tablink:hover {
@@ -32,11 +32,11 @@ body, html {
 .tabcontent {
   color: white;
   display: none;
-  padding: 100px 20px;
+  padding: 100px 100px;
   height: 100%;
 }
 
-#Home {background-color: red;}
+#Hom {background-color: red;}
 #News {background-color: green;}
 #Contact {background-color: blue;}
 #About {background-color: orange;}
@@ -44,14 +44,14 @@ body, html {
 </head>
 <body>
 
-<button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+<button class="tablink" onclick="openPage('Home', this, 'red')">Hom</button>
 <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
 <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
 <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
 
-<div id="Home" class="tabcontent">
-  <h3>Home</h3>
-  <p>Home is where the heart is..</p>
+<div id="Hom" class="tabcontent">
+  <h3>Ingus bingus</h3>
+  <p>Ingus bingus bogus bogus</p>
 </div>
 
 <div id="News" class="tabcontent">
