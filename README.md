@@ -38,7 +38,7 @@ body, html {
   height: 100%;
 }
 
-#Home {background-color: red;}
+#Ho {background-color: red;}
 #News {background-color: green;}
 #Contact {background-color: blue;}
 #About {background-color: orange;}
@@ -46,14 +46,14 @@ body, html {
 </head>
 <body>
 
-<button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
+<button class="tablink" onclick="openPage('Ho', this, 'red')">Ho</button>
 <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
 <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
 <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
 
-<div id="Home" class="tabcontent">
+<div id="Ho" class="tabcontent">
   <h3>Home</h3>
-  <p>Home is where the heart is..</p>
+  <p>Bingo biongo.</p>
 </div>
 
 <div id="News" class="tabcontent">
