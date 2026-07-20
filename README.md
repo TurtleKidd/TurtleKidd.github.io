@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ry's Portfolio — Home</title>
+  <title> Portfolio — Home</title>
   <link rel="stylesheet" href="style.css"/>
   <style>.example-item img{width:100%;height:100%;object-fit:cover;display:block}</style>
 </head>
