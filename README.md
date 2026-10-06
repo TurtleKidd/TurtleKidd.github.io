@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 	<body>
     <li class="gn_item -lang"><a href="/ggst/" class="gn_link -indl"><i>LANGUAGE</i></a>
