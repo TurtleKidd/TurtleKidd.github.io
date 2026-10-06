@@ -1,258 +1,1782 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title> Portfolio — Home</title>
-  <link rel="stylesheet" href="style.css"/>
-  <style>.example-item img{width:100%;height:100%;object-fit:cover;display:block}</style>
+<meta charset="UTF-8">
+<link rel="alternate" hreflang="ja" href="https://www.guiltygear.com/ggst/jp/character/ask/">
+<link rel="alternate" hreflang="en" href="https://www.guiltygear.com/ggst/en/character/ask/">
+<link rel="alternate" hreflang="ko" href="https://www.guiltygear.com/ggst/kr/character/ask/">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="theme-color" content="#fff">
+<title>ASUKA R♯ | CHARACTER | GUILTY GEAR -STRIVE- | ARC SYSTEM WORKS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="description" content="GUILTY GEAR -STRIVE- OFFICIAL SITE">
+<meta name="keywords" content="アークシステムワークス,ARCSYSTEMWORKS,格闘ゲーム,GUILTY GEAR,ギルティギア,ggst">
+<meta property="og:url" content="http://www.guiltygear.com/ggst/en/character/ask/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ASUKA R♯ | CHARACTER | GUILTY GEAR -STRIVE- | ARC SYSTEM WORKS">
+<meta property="og:site_name" content="ASUKA R♯ | CHARACTER | GUILTY GEAR -STRIVE- | ARC SYSTEM WORKS">
+<meta property="og:description" content="GUILTY GEAR -STRIVE- OFFICIAL SITE">
+<meta property="og:image" content="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/img/ogp/ogp.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/img/ogp/ogp.png">
+<meta name="twitter:site" content="@GUILTYGEAR_PR">
+<link rel="icon" href="https://www.arcsystemworks.jp/favicon.ico">
+<link rel="stylesheet" href="https://use.typekit.net/xps4lil.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/css/style.css?2026-06-23-084851">
+<link rel="stylesheet" href="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/css/p_top.css?2026-06-23-084851">
+<link rel="stylesheet" href="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/css/p_buynow.css?2026-06-23-084850">
+<link rel="stylesheet" href="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/css/l_swiper.css?2026-06-23-084850">
+<link rel="stylesheet" href="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/css/l_parts_template.css?2026-06-23-084850">
+<link rel="stylesheet" href="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/css/p_character2026.css?2026-06-23-084850">
+<style>
+@media screen and (min-width: 769px ){
+  body[data-gn='character'] #contents .charaDetail .charaDetail_img{
+width: clamp(921.9999078px , 72.03125vw , 200vw); height: auto;
+top: clamp(59.999994px , 4.6875vw , 200vw);
+margin-left: min(59.999994px , -4.1666666666667vw);
+}
+}
+@media screen and (max-width: 768px ){
+body[data-gn='character'] #contents .charaDetail .charaDetail_img {top:-10vw;}
+}
+</style>
+		<style type="text/css" id="wp-custom-css">
+			/* 見出しの改行設定 */
+#contents .parts_template article .entrybody h4 {
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+#contents .parts_template article .entrybody h3 {
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+#contents .parts_template article .entrybody p {
+  font-weight: 400;
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+#contents .parts_template article .entrybody hr {
+  background: #000;
+  height: 1px; /* 線の太さを指定 */
+  border: none;  /* 元々ある線を消す */
+}
+#contents .text-box {
+  border: solid 1px #000;
+  padding: 1.5em;
+  box-sizing: border-box;
+}
+#contents .content-box {
+  border: solid 1px #000;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  box-sizing: border-box;
+}
+
+/* ---【投稿ページ限定】リスト表示の調整（ボタン除外版） --- */
+
+/* ▼ 1. リスト全体の基本設定 */
+/* 中に .btn クラスを含む要素がないリストにのみ適用 */
+body.single #contents .parts_template article .entrybody ul:not(:has(.btn)),
+body.single #contents .parts_template article .entrybody ol:not(:has(.btn)) {
+  /* 数字と黒丸の位置を揃えるための余白 */
+  padding-left: 2.5em !important;
+}
+
+body.single #contents .parts_template article .entrybody ul:not(:has(.btn)) li,
+body.single #contents .parts_template article .entrybody ol:not(:has(.btn)) li {
+  /* テキスト色を黒に強制指定 */
+  color: #000 !important;
+  /* 行間の設定 */
+  margin-bottom: 0.8em !important;
+  padding-left: 0.5em !important; /* マーカーとテキストの間の隙間 */
+  list-style-position: outside !important; /* マーカーを外側に配置 */
+  word-break: normal;
+  overflow-wrap: break-word;
+}
+
+/* ▼ 2. 番号なしリスト（ul）の入れ子設定 */
+/* レベル1（●） */
+body.single #contents .parts_template article .entrybody ul:not(:has(.btn)) li {
+  list-style-type: disc !important;
+}
+
+/* レベル2（○） */
+body.single #contents .parts_template article .entrybody ul:not(:has(.btn)) ul li {
+  list-style-type: circle !important;
+}
+
+/* レベル3（■） */
+body.single #contents .parts_template article .entrybody ul:not(:has(.btn)) ul ul li {
+  list-style-type: square !important;
+}
+
+
+/* ▼ 3. 番号ありリスト（ol）の入れ子設定 */
+/* レベル1（1, 2, 3） */
+body.single #contents .parts_template article .entrybody ol:not(:has(.btn)) li {
+  list-style-type: decimal !important;
+}
+
+/* レベル2（a, b, c） */
+body.single #contents .parts_template article .entrybody ol:not(:has(.btn)) ol li {
+  list-style-type: lower-alpha !important;
+}
+
+/* レベル3（i, ii, iii） */
+body.single #contents .parts_template article .entrybody ol:not(:has(.btn)) ol ol li {
+  list-style-type: lower-roman !important;
+}
+
+/* ▼ 4. 画像リスト(ul.half)の黒丸だけを非表示にする（投稿ページ限定） */
+/* ここも念のためボタンが含まれていない場合のみに限定 */
+body.single #contents .parts_template article .entrybody ul.half:not(:has(.btn)) li {
+  list-style-type: none !important;
+}
+
+/* iタグ と emタグ の斜体＋余白設定 */
+#contents .parts_template article .entrybody i,
+#contents .parts_template article .entrybody em {
+  font-style: italic;
+  margin-right: 0.2em; /* 右側に0.2文字分の余白を追加 */
+}
+/* /* ============================================================
+   【投稿ページ限定】テーブル（表）のデザイン定義（統合版）
+   ============================================================ */
+
+/* 1. すべてのテーブルの基本設定（枠線・余白） */
+body.single #contents .parts_template article .entrybody table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin-top: 2.5em !important;
+    margin-bottom: 2.5em !important;
+    border: 1px solid #ccc !important; /* 外枠 */
+}
+
+/* 2. すべてのセルの共通設定 */
+body.single #contents .parts_template article .entrybody table th,
+body.single #contents .parts_template article .entrybody table td {
+    padding: 10px 12px !important;
+    border: 1px solid #ccc !important; /* 中の線 */
+    word-break: normal;
+    overflow-wrap: break-word;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #000 !important;
+}
+
+/* 3. 【標準テーブル】のデザイン（クラス指定がない場合） */
+/* 一旦すべての th を薄グレーに設定します */
+body.single #contents .parts_template article .entrybody table th {
+    background-color: #f2f2f2 !important; 
+    font-weight: bold;
+    text-align: left;
+}
+
+/* 4. 【responsive-table】のデザイン（特定のクラスがある場合） */
+/* responsive-table クラスの中にある th だけ、濃いグレー（#333）で上書きします */
+
+/* ヘッダー（行・列ともに）を濃いグレー・白文字に */
+body.single #contents .parts_template article .entrybody .responsive-table th {
+    background-color: #333 !important; 
+    color: #fff !important;           
+    width: 30% !important;            /* PC版のヘッダー幅 */
+}
+
+/* セル(td)は常に白背景 */
+body.single #contents .parts_template article .entrybody .responsive-table td {
+    background-color: #fff !important;
+}
+
+/* レイアウトを固定にする（responsive-tableのみ） */
+body.single #contents .parts_template article .entrybody .responsive-table table {
+    table-layout: fixed !important;
+}
+
+/* --- responsive-table 用の幅の強制指定（元の設定） --- */
+body.single #contents .parts_template article .entrybody .responsive-table thead th:nth-child(2),
+body.single #contents .parts_template article .entrybody .responsive-table col.col-right {
+    width: 70% !important;
+}
+body.single #contents .parts_template article .entrybody .responsive-table col.col-left {
+    width: 30% !important;
+}
+
+/* ▼スマホ（SP）版の調整（768px以下） ▼ */
+@media screen and (max-width: 768px) {
+    body.single #contents .parts_template article .entrybody table th,
+    body.single #contents .parts_template article .entrybody table td {
+        font-size: 13px !important;
+        padding: 8px !important;
+    }
+    
+    /* レスポンシブテーブルのスマホ幅設定 */
+    body.single #contents .parts_template article .entrybody .responsive-table th,
+    body.single #contents .parts_template article .entrybody .responsive-table col.col-left {
+        width: 35% !important;
+    }
+    body.single #contents .parts_template article .entrybody .responsive-table thead th:nth-child(2),
+    body.single #contents .parts_template article .entrybody .responsive-table col.col-right {
+        width: 65% !important;
+    }
+}
+
+/* 特殊セル（結合・左寄せ） */
+body.single #contents .parts_template article .entrybody .responsive-table th.merged-header {
+    width: 100% !important;
+}
+
+/* テーブルが連続する際の余白調整 */
+body.single #contents .parts_template article .entrybody .responsive-table + .responsive-table,
+body.single #contents .parts_template article .entrybody table + table {
+    margin-top: 10px !important;
+}
+
+/* --- パターン2：アップデート・カード（調整版） --- */
+.update-entry {
+    margin-bottom: 25px;
+    border-left: 5px solid #f13932;
+    background: #f9f9f9;
+    border-top: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.update-label {
+    background-color: #333;
+    color: #fff !important;
+    font-weight: 700;
+    /* 上下 / 右 / 下 / 左 の順：右側のパディングを多めにとって斜辺との衝突を防ぐ */
+    padding: 10px 45px 10px 20px; 
+    display: inline-block;
+    min-width: 160px;
+    max-width: 100%; /* 親要素からはみ出さないように設定 */
+    box-sizing: border-box;
+    line-height: 1.4; /* 2行になった時の行間を調整 */
+    vertical-align: middle;
+    
+    /* 斜めカットのデザイン：calcを使用して右側のカット幅を20pxに固定 */
+    clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 100%, 0% 100%);
+}
+
+.update-content {
+    padding: 15px 20px;
+    color: #000 !important;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* スマホ表示での微調整 */
+@media screen and (max-width: 768px) {
+    .update-label {
+        font-size: 14px;
+        padding: 8px 35px 8px 15px; /* スマホでは少し余白を詰める */
+        min-width: 120px;
+    }
+}
+
+/* --- アップデートパーツの余白自動制御 --- */
+
+/* 1. 基本設定：どんな要素の後に来ても、まずは上に余白をあける */
+.update-entry,
+.responsive-table {
+    margin-top: 2.5em !important;
+    margin-bottom: 0 !important; /* 下側の余白は一旦ゼロにする */
+}
+
+/* 2. カードやテーブルが「連続」した時だけ、上の余白を詰める */
+/* 「自分と同じ要素」が直前に並んでいる場合のみ、この設定が上書きされます */
+.update-entry + .update-entry,
+.responsive-table + .responsive-table,
+.update-entry + .responsive-table,
+.responsive-table + .update-entry {
+    margin-top: 10px !important; /* カード同士の隙間。完全にくっつけるなら0に */
+}
+
+/* 3. パーツ全体の最後（直後に別の要素が来る場合）のための余白確保 */
+.update-entry,
+.responsive-table {
+    padding-bottom: 1px; /* マージンの相殺防止用 */
+}
+/* 次の要素（pタグなど）との間隔を確保したい場合は以下を調整 */
+.update-entry:last-child,
+.responsive-table:last-child {
+    margin-bottom: 2.5em !important;
+}
+/* --- 表・アップデートカード内のリスト調整 --- */
+
+/* セルやカードの中では、外側の大きな余白(2.5em)を解除する */
+.responsive-table td ul,
+.responsive-table td ol,
+.update-content ul,
+.update-content ol {
+    padding-left: 1.5em !important; /* 少し狭めて収まりを良くする */
+    margin-top: 0.5em !important;
+    margin-bottom: 0.5em !important;
+}
+
+/* リスト項目の行間と文字色の微調整 */
+.responsive-table td li,
+.update-content li {
+    margin-bottom: 0.4em !important; /* 通常より少し詰め気味にする */
+    color: #000 !important;          /* 文字色は黒を維持 */
+}
+/* PC・スマホ共通：全要素に対する強制改行（break-all）を上書きして無効化 */
+#contents .parts_template article .entrybody * {
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+}		</style>
+		
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PR4FJ89');</script>
+<!-- End Google Tag Manager -->
 </head>
-<body>
-  <div class="sparkle-container"></div>
 
-  <nav class="navbar">
-    <div class="nav-content">
-      <div class="nav-logo"><span class="logo-text">✦ Ray's Portfolio ✦</span></div>
-      <ul class="nav-links">
-        <li><a class="nav-link" href="index.html">Home</a></li>
-        <li><a class="nav-link active" href="commissions.html">Commissions</a></li>
-        <li><a class="nav-link" href="gallery-3d.html">3D Gallery</a></li>
-        <li><a class="nav-link" href="https://hanabihenki.github.io/resources/index.html">Resources</a></li>
-        <li><a class="nav-link" href="links.html">Links</a></li>
-      </ul>
+<body id="detail" data-gn="character" data-ln='' data-category="" class="character-template-default single single-character postid-1879">
+<div id="loader"><div class="loader"><div style="color:#f13932" class="la-ball-clip-rotate la-2x"><div></div></div>
+</div></div>
+<div id="imageLoaded">
+<picture><source media="(min-width: 769px)" srcset="/ggst/en/wordpress/wp-content/uploads/2023/05/pc-bg-xnNj771Auw.jpg"><img src="/ggst/en/wordpress/wp-content/uploads/2023/05/sp-bg-xnNj771Auw.jpg" alt="ASUKA R♯"></picture>
+
+<picture>
+<source type="image/webp" media="(min-width: 769px)" srcset="/ggst/en/wordpress/wp-content/uploads/2023/05/chara_pc_xnNj771Auw.webp"><source type="image/webp" srcset="/ggst/en/wordpress/wp-content/uploads/2023/05/chara_sp_xnNj771Auw.webp"><source media="(min-width: 769px)" srcset="/ggst/en/wordpress/wp-content/uploads/2023/05/chara_pc_xnNj771Auw.png"><img src="/ggst/en/wordpress/wp-content/uploads/2023/05/chara_sp_xnNj771Auw.png" alt=""></picture>
+</div>
+
+<main>
+<div id="contents">
+
+<nav class="control">
+<p class="menu"><b>menu</b><i></i></p>
+<p class="yoyaku"><a href="/ggst/en/buynow"><i><svg id="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140.31 221.76"><defs></defs><path class="cls-1" d="M136.42,133.33c.51.88-.49,1.69-.61,2.88h.41a7,7,0,0,1,3.7-1.23l.39.25v-14.9l-.39,0c.08-.43.05-.39.21-.62l.18-.1v-6.71c0-10.3-6.34-11.71-9.35-11.8a2,2,0,0,0-.73-.13H73c-5.29,0-5,8,0,8H93.69a7.54,7.54,0,0,1,7.54,7.4c0,5-4.38,12.6-10.29,18.52-4.38,4.38-9.93,8-15.22,7.82a15.21,15.21,0,0,1-7.8-3.31c-1-.86-2-1.76-2.8-2.61l-25.06-25c-3.89-3.9-4.19-12.74,0-16.93l25.06-25c4.08-4.08,13-3.94,16.93,0l20.68,20.66H90.12a2.06,2.06,0,0,0-2.06,2.06V93A2.06,2.06,0,0,0,90.12,95h40.52a2,2,0,0,0,1.06-.3c3.56-.88,6.5-5.79.88-11.4L88.28,39.05C78.46,27.89,77.57,5.26,77.57,3.81a3.91,3.91,0,0,0-7.82,0c0,1.41-.84,23-10,34.41L3,94.89c-4.19,4.19-3.89,13,0,16.93l25.64,25.62a2.07,2.07,0,0,1,.92.93L37.18,146a8,8,0,0,1,.5-1.1h1v.41a2.73,2.73,0,0,0,0,2.24l22.11,22.1c8.14,11.7,8.91,31.57,8.91,32.93a3.91,3.91,0,0,0,6.14,3.1,7.78,7.78,0,0,0-1.18-.09c-.58-1.08-.17-1.19.41-2.06a6.11,6.11,0,0,1,1.44.21,6.53,6.53,0,0,1,.44.76,3.64,3.64,0,0,0,.57-1.93c0-.08,0-.25,0-.48h-.19c-.22.17-.06.07-.42.21v-.42c.42.08.4.06.61.2a91.38,91.38,0,0,1,2.12-15.61,4.9,4.9,0,0,0-2.52,4.51,2.06,2.06,0,0,1,1.23,1.85,2.24,2.24,0,0,1-1.23-.2,2.56,2.56,0,0,1-1.85-2.68,6.27,6.27,0,0,0,1.85-2.26c-.8-.4-.86-.61-.82-1.85,1-1.17.31-2.51,2.67-2.47a3.64,3.64,0,0,0,1.34.4,45.07,45.07,0,0,1,6.45-14.61l27.83-27.82c0-.17,0-.35,0-.55a1.64,1.64,0,0,1,.46.12l12.34-12.33a1.34,1.34,0,0,1,0-.14h.18l5.06-5a2.34,2.34,0,0,1,1.74,2.35v6.9C135.13,132.85,136,132.69,136.42,133.33ZM24.79,97.71A8,8,0,0,0,22,103.22c0,4.68-7.2,4.52-7.2,0a13.81,13.81,0,0,1,4.42-9.93l43-43c4.58-4.58,7.56-5.22,11.41-5.22a3.53,3.53,0,1,1-.11,7s-3.1.16-6.34,3.41C55.19,66.79,35.26,87,24.79,97.71Zm10,21.84c.23-.19,0,0,.21-.21h.41V120C34.75,119.79,35.1,120.06,34.8,119.55Zm1.44,6c-.24.17-.34.16-.82.21v-.82h.82v.2h.21C36.32,125.46,36.41,125.3,36.24,125.51Zm30,18.11a15,15,0,0,0,1.64-1c1.18.14,1,.61,2.06.82a3.88,3.88,0,0,1,2.67-.62v.42c-.52.64-.05,1.28-.41,2.26L67.72,151H65.66a6.91,6.91,0,0,1-1-2.05c.69-.27,1.51-.41,1.85-1,.19-.35,0-.58.21-.83.39-.43.73-.21,1-.82C68.64,144.82,66.72,144.39,66.28,143.62Zm-2.06-4.53h1.23a3.08,3.08,0,0,1,.21,1l-1.44.82c-.79,1.31.49,2.16-1.65,2.27-.5-.64-1.28-.87-1.64-1.65-.16-.22-.13-.19-.21-.62C62.18,140.35,63.25,140.1,64.22,139.09Zm-15.43,2.68h1v.2H50v.41a2.1,2.1,0,0,1-1.23.41A1.25,1.25,0,0,1,48.79,141.77Zm-4.94-20h1a3,3,0,0,1,.21.82,2.33,2.33,0,0,0-.62.42c-.36-.13-.2,0-.41-.21s-.23-.13-.41-.62C43.81,122,43.72,122.17,43.85,121.81Zm-2.88,23c-.52-.49-.94-.44-1.23-1.23H40a2.68,2.68,0,0,1,.41-.83H41c.48.71,1,.83,1.24,1.86A3.85,3.85,0,0,1,41,144.85Zm8,5.56H48a12.08,12.08,0,0,0-2.06-2.27c-1.11-.72-2-.27-2.47-1.64-.72-1.05.33-2,.83-2.47a7.29,7.29,0,0,1,2,.41c.47.87.54,1.93,1.85,2.06a2,2,0,0,1,1.65-.83,5,5,0,0,0,.82,1.44C50.58,147.41,49.06,150.37,49,150.41Zm6.37-3.71c-.16-.24-.16-.34-.2-.82.16-.21.07-.06.2-.41.36-.13.2,0,.41-.21.67.26.55.18.62,1C56,146.55,55.71,146.89,55.37,146.7Zm7.2,20.57-3.08.42c-.84-1-1.84-1.23-1.85-3.09,1.06.25.65.74,1.64,1,.16-.14.46-.27.62-.41s.07-.06.2-.41c-.41-.36-.38-.45-.41-1.24a3.85,3.85,0,0,1,1.24-.2c1,1.2,1.84,1.38,1.85,3.7C62.56,167.26,62.76,167.05,62.57,167.27Zm1-14.6c.34.28.23.13.41.62H63.4C63.46,153.08,63.53,152.87,63.6,152.67Zm0,4.94c.73-.79,1-2.23,1.44-3.3h.83a3.3,3.3,0,0,1,.82,1.65c-1.14.67-1.8,1.81-3.09,2.26Zm2.68,4.73c.13-.28.27-.55.41-.83H69l.62.83c.79.33,1.77-.13,2.47,0,.13.36,0,.2.2.41-.13.36,0,.2-.2.41a2.27,2.27,0,0,1-1.85,1.23C69.17,163.47,67.34,163.17,66.28,162.34Zm6.58,13.78h-.62v-.41C72.91,175.88,72.56,175.61,72.86,176.12ZM70.8,195.66a3.93,3.93,0,0,1,.41-.82c.16-.14.46-.27.62-.41h.62c.49.8,1,1,1,2.26-.33.71.37.85.2,1.44-.24.17-.34.16-.82.21A4.93,4.93,0,0,0,70.8,195.66Zm2.88,6.79c-.28-.59-.34-.38-.2-1h.82a3,3,0,0,1,.21.83A3.14,3.14,0,0,1,73.68,202.45Zm3.09-19.95-.21-.62c.53.3.23,0,.41.62ZM87.88,166c-.88-.6-2.39-.42-3.3-1a2.24,2.24,0,0,1-.2-1.23,10,10,0,0,0,1.65-.41,6.24,6.24,0,0,1,1.44.2c.27.82.54,1.65.82,2.47Zm43.2-44c-.58.57-3.14.64-4.32,1.23-.54.27-.58,1.15-1,1.44l-2.06.41c-.9.46-1.14,1.23-2.47,1.44a4.9,4.9,0,0,0-.57-2.38c-4.21,4.24-9.84,9.86-16.54,16.41.17.32.1.7.45,1.2.67.94,1.5.32,1.64,2-.75.6-1.15,1.61-1.85,2.27v.2h.21c.31.88.91,1,1.23,1.85h-.2a5.62,5.62,0,0,1-2.47.21l-.21-.62c.79-.49,1-.94,1-2.26-.5-.21-1-.33-1.23-.82,1-.62,1-2.14.89-3.57l-5.26,5.11c0,.62-.14,1.34-.16,1.95a3.5,3.5,0,0,1-1.23.21,2.54,2.54,0,0,0-.5-.33c-2.71,2.61-5.55,5.33-8.49,8.12.59.2,1.19.42,1.79.64v.41a6.11,6.11,0,0,1-3.09.83,1.85,1.85,0,0,0-.42-.24l-.16.14A16.91,16.91,0,0,1,83.44,160a2.49,2.49,0,0,1,.53,1.53c-.17.21-.08.06-.21.42h-.41c-.61.32-1.79-.39-2.66-.62a21,21,0,0,1-7.28.8,3.52,3.52,0,1,1,.11-7s4.78-.12,7.17-2.37c3.86-3.5,7.6-7,11.16-10.33h-.07c-.71-1-2.39-1.07-2-2.47a9.8,9.8,0,0,1,3.29,1l.17.17c16.46-15.6,28.74-28.52,30-29.76,3.3-3.3,8.28,1.91,5.09,5.09l-6,6.11v.29a9.07,9.07,0,0,1,1.23.82l3.09-.82c.45-1.18.18-2.3,1.44-2.88a1.87,1.87,0,0,1,1-.21,12.72,12.72,0,0,0,2.26,1.86C131.15,122,131.24,121.81,131.08,122Z"/><path class="cls-1" d="M135,151c1.56,1.76,5.28,1.15,5.28-1.89v-7.5c-.19.14-.19.12-.59.2a5.16,5.16,0,0,1-.83,1.64c-.22-.19,0,0-.2-.2-.55-.49-.46-1.63-.41-2.68-.61-.62-.57-1.22-1.65-1.44a4,4,0,0,1-2.26,1.44c.19-1,1.6-2.61,1-4.11l-.62-.41-.21-2.06a.37.37,0,0,0-.22-.17v15.29a2.84,2.84,0,0,0,.54,1.74H135Z"/><path class="cls-1" d="M77.76,217.59a2.08,2.08,0,0,1-.06-.92,4.16,4.16,0,0,0-.39-1.14c-.34-.19-.76-.07-.54-.74a.14.14,0,0,0,0-.06,4.31,4.31,0,1,0,1,2.86Z"/><polygon class="cls-1" points="77.59 202.04 77.58 202.03 77.58 202.04 77.59 202.04"/></svg></i><span>BUY NOW</span></a></p>
+</nav>
+
+<header class="siteheader">
+<nav class="gnav">
+<div class="scroll">
+<div class="wrap">
+<ul class="gn">
+    <li class="gn_item -lang -spItem"><a href="/ggst/" class="gn_link -indl"><i>LANGUAGE</i></a>
+    <div class="gn_dropdownLists_wrap">
+        <ul class="gn_dropdownLists">
+            <li class="gn_dropdownLists_item"><a href="/ggst/jp/" data-lang="ja">日本語</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/" data-lang="en">English</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/kr/" data-lang="ko">한국어</a></li>
+        </ul>
     </div>
-  </nav>
-
-  <main class="container">
-    <section class="page active" id="home">
-      <div class="page-header">
-        <h1>Hi everypony! Welcome to my website!</h1>
-        <div class="decorative-line"></div>
-      </div>
-
-      <div class="content-box">
-        <div class="profile-section">
-          <div class="profile-image-container">
-            <img class="profile-image" src="assets/classy-wink-stay-classy.gif" alt="Ray's artwork"/> 
-<br>
-
-            <div class="image-border"></div>
-          </div>
-
-          <div class="intro-text">
-            <h2>A little about me...</h2>
-<p>
-Hi my name is Ray! <em>(I also go by Hanabihenki, Azurazar, and Raydrawsx online).</em> I am a Japanese-American artist with skills in illustration, 2D and 3D animation, 3D modeling, music production, and front-end programming. I have a passion for story telling and like to tell a story with every piece of art I make.
-<br><br>
-My work online is varied in style and messaging. I like to explore saterization and commentary with my artwork. Please note that my art that I upload online is not a repersentation of my opinions, unless otherwise sated.
-<br><br>
-If you like my work, then you can support me by donating on my Ko-Fi page or by commissioning me! Commission info is on <a class="cute-link" href="commissions.html" target="_blank">this page!</a>
-
-</p>
-
-            <div class="support-box">
-              <p>:3 If you would like to support me, check out <a class="cute-link" href="https://ko-fi.com/azurazar" target="_blank">my Ko-Fi page!</a></p>
-            </div>
-          </div>
+    </li>
+    <li class="gn_item -pcLogo"><a href="/ggst/en/" class="gn_link -home">HOME</a></li>
+    <li class="gn_item"><a href="/ggst/en/character/" class="gn_link -character">CHARACTER</a></li>
+    <li class="gn_item"><a href="/ggst/en/" class="gn_link -indl"><i>MODE</i></a>
+    <div class="gn_dropdownLists_wrap">
+        <ul class="gn_dropdownLists">
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/story/" class="-story">STORY</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/battle/systems/" class="-battle">BATTLE</a></li>
+<!--
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/battle/single/" class="-battle">SINGLE PLAYER</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/battle/online/" class="-battle">ONLINE BATTLE</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/battle/team/" class="-battle">TEAM OF BATTLE</a></li>
+-->
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/figure/" class="-figure">DEGITAL FIGURE</a></li>
+        </ul>
+    </div>
+    </li>
+    <li class="gn_item"><a href="/ggst/en/" class="gn_link -indl -news"><i>NEWS</i></a>
+        <div class="gn_dropdownLists_wrap">
+        <ul class="gn_dropdownLists">
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/news/">NEWS</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/news/post-category/patch/" class="-patch">PATCH NOTES</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/news/post-category/column/" class="-column">FEATURED ARTICLES</a></li>
+        </ul>
         </div>
+    </li>
+    <li class="gn_item"><a href="/ggst/en/" class="gn_link -indl"><i>EVENTS</i></a>
+    <div class="gn_dropdownLists_wrap">
+        <ul class="gn_dropdownLists">
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/eventinfo/" class="-eventinfo">ESPORTS</a></li>
+        </ul>
+    </div>
+    </li>
+    <li class="gn_item"><a href="/ggst/en/" class="gn_link -indl"><i>SPECIAL</i></a>
+    <div class="gn_dropdownLists_wrap">
+        <ul class="gn_dropdownLists">
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/fankit/" class="-fankit">FAN KIT</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/webcomics/" class="-webcomics">WEB COMICS</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/movie/" class="-movie">TRAILERS</a></li>
+            <li class="gn_dropdownLists_item"><a href="https://www.arcsystemworks.com/video-policy/" target="_blank" rel="noopener noreferrer">VIDEO POLICY</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/news/post-951/" class="-faq">FAQ</a></li>
+        </ul>
+    </div>
+    </li>
+
+<!--
+    <li class="gn_item"><a href="/ggst/en/" class="gn_link -indl"><i>INTRODUCTION</i></a>
+    <div class="gn_dropdownLists_wrap">
+        <ul class="gn_dropdownLists">
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/howto/" class="-howto">HOW TO PLAY</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/about/" class="-about">ABOUT GGST</a></li>
+            <li class="gn_dropdownLists_item -turn"><a href="/ggst/en/story/" class="-story">WEB COMICS &amp; STORY</a></li>
+        </ul>
+    </div>
+    </li>
+
+    <li class="gn_item"><a href="/ggst/en/" class="gn_link -indl"><i>COMMUNITY<br>SUPPORT</i></a>
+    <div class="gn_dropdownLists_wrap">
+        <ul class="gn_dropdownLists">
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/fankit/" class="-fankit">FAN KIT</a></li>
+            <li class="gn_dropdownLists_item"><a href="https://www.arcsystemworks.com/video-policy/" target="_blank" rel="noopener noreferrer">VIDEO POLICY</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/news/post-951/" class="-faq">FAQ</a></li>
+        </ul>
+    </div>
+    </li>
+
+    <li class="gn_item"><a href="/ggst/en/movie/" class="gn_link -movie">VIDEO</a></li>
+-->
 
 
 
+    <li class="gn_item -lang"><a href="/ggst/" class="gn_link -indl"><i>LANGUAGE</i></a>
+    <div class="gn_dropdownLists_wrap">
+        <ul class="gn_dropdownLists">
+            <li class="gn_dropdownLists_item"><a href="/ggst/jp/" data-lang="ja">日本語</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/" data-lang="en">English</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/kr/" data-lang="ko">한국어</a></li>
+        </ul>
+    </div>
+    </li>
+</ul><p class="yoyaku"><a href="/ggst/en/buynow"><i><svg id="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140.31 221.76"><defs></defs><path class="cls-1" d="M136.42,133.33c.51.88-.49,1.69-.61,2.88h.41a7,7,0,0,1,3.7-1.23l.39.25v-14.9l-.39,0c.08-.43.05-.39.21-.62l.18-.1v-6.71c0-10.3-6.34-11.71-9.35-11.8a2,2,0,0,0-.73-.13H73c-5.29,0-5,8,0,8H93.69a7.54,7.54,0,0,1,7.54,7.4c0,5-4.38,12.6-10.29,18.52-4.38,4.38-9.93,8-15.22,7.82a15.21,15.21,0,0,1-7.8-3.31c-1-.86-2-1.76-2.8-2.61l-25.06-25c-3.89-3.9-4.19-12.74,0-16.93l25.06-25c4.08-4.08,13-3.94,16.93,0l20.68,20.66H90.12a2.06,2.06,0,0,0-2.06,2.06V93A2.06,2.06,0,0,0,90.12,95h40.52a2,2,0,0,0,1.06-.3c3.56-.88,6.5-5.79.88-11.4L88.28,39.05C78.46,27.89,77.57,5.26,77.57,3.81a3.91,3.91,0,0,0-7.82,0c0,1.41-.84,23-10,34.41L3,94.89c-4.19,4.19-3.89,13,0,16.93l25.64,25.62a2.07,2.07,0,0,1,.92.93L37.18,146a8,8,0,0,1,.5-1.1h1v.41a2.73,2.73,0,0,0,0,2.24l22.11,22.1c8.14,11.7,8.91,31.57,8.91,32.93a3.91,3.91,0,0,0,6.14,3.1,7.78,7.78,0,0,0-1.18-.09c-.58-1.08-.17-1.19.41-2.06a6.11,6.11,0,0,1,1.44.21,6.53,6.53,0,0,1,.44.76,3.64,3.64,0,0,0,.57-1.93c0-.08,0-.25,0-.48h-.19c-.22.17-.06.07-.42.21v-.42c.42.08.4.06.61.2a91.38,91.38,0,0,1,2.12-15.61,4.9,4.9,0,0,0-2.52,4.51,2.06,2.06,0,0,1,1.23,1.85,2.24,2.24,0,0,1-1.23-.2,2.56,2.56,0,0,1-1.85-2.68,6.27,6.27,0,0,0,1.85-2.26c-.8-.4-.86-.61-.82-1.85,1-1.17.31-2.51,2.67-2.47a3.64,3.64,0,0,0,1.34.4,45.07,45.07,0,0,1,6.45-14.61l27.83-27.82c0-.17,0-.35,0-.55a1.64,1.64,0,0,1,.46.12l12.34-12.33a1.34,1.34,0,0,1,0-.14h.18l5.06-5a2.34,2.34,0,0,1,1.74,2.35v6.9C135.13,132.85,136,132.69,136.42,133.33ZM24.79,97.71A8,8,0,0,0,22,103.22c0,4.68-7.2,4.52-7.2,0a13.81,13.81,0,0,1,4.42-9.93l43-43c4.58-4.58,7.56-5.22,11.41-5.22a3.53,3.53,0,1,1-.11,7s-3.1.16-6.34,3.41C55.19,66.79,35.26,87,24.79,97.71Zm10,21.84c.23-.19,0,0,.21-.21h.41V120C34.75,119.79,35.1,120.06,34.8,119.55Zm1.44,6c-.24.17-.34.16-.82.21v-.82h.82v.2h.21C36.32,125.46,36.41,125.3,36.24,125.51Zm30,18.11a15,15,0,0,0,1.64-1c1.18.14,1,.61,2.06.82a3.88,3.88,0,0,1,2.67-.62v.42c-.52.64-.05,1.28-.41,2.26L67.72,151H65.66a6.91,6.91,0,0,1-1-2.05c.69-.27,1.51-.41,1.85-1,.19-.35,0-.58.21-.83.39-.43.73-.21,1-.82C68.64,144.82,66.72,144.39,66.28,143.62Zm-2.06-4.53h1.23a3.08,3.08,0,0,1,.21,1l-1.44.82c-.79,1.31.49,2.16-1.65,2.27-.5-.64-1.28-.87-1.64-1.65-.16-.22-.13-.19-.21-.62C62.18,140.35,63.25,140.1,64.22,139.09Zm-15.43,2.68h1v.2H50v.41a2.1,2.1,0,0,1-1.23.41A1.25,1.25,0,0,1,48.79,141.77Zm-4.94-20h1a3,3,0,0,1,.21.82,2.33,2.33,0,0,0-.62.42c-.36-.13-.2,0-.41-.21s-.23-.13-.41-.62C43.81,122,43.72,122.17,43.85,121.81Zm-2.88,23c-.52-.49-.94-.44-1.23-1.23H40a2.68,2.68,0,0,1,.41-.83H41c.48.71,1,.83,1.24,1.86A3.85,3.85,0,0,1,41,144.85Zm8,5.56H48a12.08,12.08,0,0,0-2.06-2.27c-1.11-.72-2-.27-2.47-1.64-.72-1.05.33-2,.83-2.47a7.29,7.29,0,0,1,2,.41c.47.87.54,1.93,1.85,2.06a2,2,0,0,1,1.65-.83,5,5,0,0,0,.82,1.44C50.58,147.41,49.06,150.37,49,150.41Zm6.37-3.71c-.16-.24-.16-.34-.2-.82.16-.21.07-.06.2-.41.36-.13.2,0,.41-.21.67.26.55.18.62,1C56,146.55,55.71,146.89,55.37,146.7Zm7.2,20.57-3.08.42c-.84-1-1.84-1.23-1.85-3.09,1.06.25.65.74,1.64,1,.16-.14.46-.27.62-.41s.07-.06.2-.41c-.41-.36-.38-.45-.41-1.24a3.85,3.85,0,0,1,1.24-.2c1,1.2,1.84,1.38,1.85,3.7C62.56,167.26,62.76,167.05,62.57,167.27Zm1-14.6c.34.28.23.13.41.62H63.4C63.46,153.08,63.53,152.87,63.6,152.67Zm0,4.94c.73-.79,1-2.23,1.44-3.3h.83a3.3,3.3,0,0,1,.82,1.65c-1.14.67-1.8,1.81-3.09,2.26Zm2.68,4.73c.13-.28.27-.55.41-.83H69l.62.83c.79.33,1.77-.13,2.47,0,.13.36,0,.2.2.41-.13.36,0,.2-.2.41a2.27,2.27,0,0,1-1.85,1.23C69.17,163.47,67.34,163.17,66.28,162.34Zm6.58,13.78h-.62v-.41C72.91,175.88,72.56,175.61,72.86,176.12ZM70.8,195.66a3.93,3.93,0,0,1,.41-.82c.16-.14.46-.27.62-.41h.62c.49.8,1,1,1,2.26-.33.71.37.85.2,1.44-.24.17-.34.16-.82.21A4.93,4.93,0,0,0,70.8,195.66Zm2.88,6.79c-.28-.59-.34-.38-.2-1h.82a3,3,0,0,1,.21.83A3.14,3.14,0,0,1,73.68,202.45Zm3.09-19.95-.21-.62c.53.3.23,0,.41.62ZM87.88,166c-.88-.6-2.39-.42-3.3-1a2.24,2.24,0,0,1-.2-1.23,10,10,0,0,0,1.65-.41,6.24,6.24,0,0,1,1.44.2c.27.82.54,1.65.82,2.47Zm43.2-44c-.58.57-3.14.64-4.32,1.23-.54.27-.58,1.15-1,1.44l-2.06.41c-.9.46-1.14,1.23-2.47,1.44a4.9,4.9,0,0,0-.57-2.38c-4.21,4.24-9.84,9.86-16.54,16.41.17.32.1.7.45,1.2.67.94,1.5.32,1.64,2-.75.6-1.15,1.61-1.85,2.27v.2h.21c.31.88.91,1,1.23,1.85h-.2a5.62,5.62,0,0,1-2.47.21l-.21-.62c.79-.49,1-.94,1-2.26-.5-.21-1-.33-1.23-.82,1-.62,1-2.14.89-3.57l-5.26,5.11c0,.62-.14,1.34-.16,1.95a3.5,3.5,0,0,1-1.23.21,2.54,2.54,0,0,0-.5-.33c-2.71,2.61-5.55,5.33-8.49,8.12.59.2,1.19.42,1.79.64v.41a6.11,6.11,0,0,1-3.09.83,1.85,1.85,0,0,0-.42-.24l-.16.14A16.91,16.91,0,0,1,83.44,160a2.49,2.49,0,0,1,.53,1.53c-.17.21-.08.06-.21.42h-.41c-.61.32-1.79-.39-2.66-.62a21,21,0,0,1-7.28.8,3.52,3.52,0,1,1,.11-7s4.78-.12,7.17-2.37c3.86-3.5,7.6-7,11.16-10.33h-.07c-.71-1-2.39-1.07-2-2.47a9.8,9.8,0,0,1,3.29,1l.17.17c16.46-15.6,28.74-28.52,30-29.76,3.3-3.3,8.28,1.91,5.09,5.09l-6,6.11v.29a9.07,9.07,0,0,1,1.23.82l3.09-.82c.45-1.18.18-2.3,1.44-2.88a1.87,1.87,0,0,1,1-.21,12.72,12.72,0,0,0,2.26,1.86C131.15,122,131.24,121.81,131.08,122Z"/><path class="cls-1" d="M135,151c1.56,1.76,5.28,1.15,5.28-1.89v-7.5c-.19.14-.19.12-.59.2a5.16,5.16,0,0,1-.83,1.64c-.22-.19,0,0-.2-.2-.55-.49-.46-1.63-.41-2.68-.61-.62-.57-1.22-1.65-1.44a4,4,0,0,1-2.26,1.44c.19-1,1.6-2.61,1-4.11l-.62-.41-.21-2.06a.37.37,0,0,0-.22-.17v15.29a2.84,2.84,0,0,0,.54,1.74H135Z"/><path class="cls-1" d="M77.76,217.59a2.08,2.08,0,0,1-.06-.92,4.16,4.16,0,0,0-.39-1.14c-.34-.19-.76-.07-.54-.74a.14.14,0,0,0,0-.06,4.31,4.31,0,1,0,1,2.86Z"/><polygon class="cls-1" points="77.59 202.04 77.58 202.03 77.58 202.04 77.59 202.04"/></svg></i><span>BUY NOW</span></a></p>
+</div>
+<p class="close"><a href="/ggst/en/">close</a></p>
+</div>
+</nav>
+</header>
 
-        <div class="music-section">
-          <h2>𓆩✧𓆪 Music 𓆩✧𓆪</h2>
-          <p>Visual art is my main form of art. However I do play the guitar in my spare time and I produce music!</p>
-          <p><a class="cute-link" href="https://azurazar.bandcamp.com/album/seyahs-last-metrapolis" target="_blank">Check out my albums on Bandcamp!</a></p>
-          <p>While I don't have the story public yet, these albums actually are a audible way of exploring the world of planet Feyah.</p>
+<span id="detail_bg"><picture><source media="(min-width: 769px)" srcset="/ggst/en/wordpress/wp-content/uploads/2023/05/pc-bg-xnNj771Auw.jpg"><img src="/ggst/en/wordpress/wp-content/uploads/2023/05/sp-bg-xnNj771Auw.jpg" alt="ASUKA R♯"></picture></span>
+
+<section class="charaDetail">
+
+<span class="charaDetail_img">
+<picture>
+<source type="image/webp" media="(min-width: 769px)" srcset="/ggst/en/wordpress/wp-content/uploads/2023/05/chara_pc_xnNj771Auw.webp"><source type="image/webp" srcset="/ggst/en/wordpress/wp-content/uploads/2023/05/chara_sp_xnNj771Auw.webp"><source media="(min-width: 769px)" srcset="/ggst/en/wordpress/wp-content/uploads/2023/05/chara_pc_xnNj771Auw.png"><img src="/ggst/en/wordpress/wp-content/uploads/2023/05/chara_sp_xnNj771Auw.png" alt=""></picture>
+</span>
+
+<header class="charaDetail_name">
+<h1><b class="korolev">ASUKA R♯</b></h1>
+</header>
+
+<div class="charaDetail_flex">
+  
+
+<article class="mainSec">
+<h3 class="mainSec_copy"><small>Praying for the Accumulation of Goodwill</small>Master of sorcery</h3>
+
+<div class="mainSec_body">
+<div class="mainSec_wrap">
+<div class="mainSec_bg">
+<header class="mainSec_head">
+<h2><span>Asuka R♯</span></h2>
+</header>
+<div class="mainSec_prof">
+Height|5'5
+Weight|128 lbs
+Blood Type|Currently AB (for the 5th time)
+Birth Date|November 10
+Origin|Space
+Hobbies|Making buckwheat noodles in a Rube Goldberg machine, bonsai (specializing in succulents)
+Values|Sol, Aria, Asuka
+Dislikes|Chaos 
+Affiliation|None
+Weapon|Magic</div>
+</div>
+<div class="mainSec_view">
+<header class="mainSec_head">
+<h2><span>Asuka R♯</span></h2>
+</header>
+<div class="mainSec_prof">
+Height|5'5
+Weight|128 lbs
+Blood Type|Currently AB (for the 5th time)
+Birth Date|November 10
+Origin|Space
+Hobbies|Making buckwheat noodles in a Rube Goldberg machine, bonsai (specializing in succulents)
+Values|Sol, Aria, Asuka
+Dislikes|Chaos 
+Affiliation|None
+Weapon|Magic</div>
+</div>
+</div>
+</div>
+
+<div class="mainSec_text">
+<p>He stands at the pinnacle even among the company of generally highly capable magic wielders.<br />
+He is both a scientist and also unparalleled in his mastery of magic – what one would call a genius.<br />
+<br />
+Although he is generally polite and humble, he often finds even his carefully considered statements can result in discord.</p>
+<input id="specialToggle01" type="checkbox">
+<div class="toggleList mainSec_textMore">
+<p><br><br />
+In contrast to his intellectual capabilities, he severely lacks in stamina, with the slightest exercise tiring him out.<br />
+Any physically straining tasks are handled by custom-made bits of his.<br />
+<br />
+Asuka continues to transmit “clear numbers” from space, in the hopes of bringing peace to Earth.</p>
+</div>
+<label for="specialToggle01" class="specialToggle">
+<p class="mainSec_more -toggle"><span>READ MORE</span><span>CLOSE</span></p>
+</label>
+</div>
+
+</article>
+
+
+
+<div class="subSec">
+  <div class="subSec_type">
+  <h2>Unique</h2>
+  <dl>
+  <dt><small>EASY TO USE</small></dt>
+  <dd>
+<img src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/img/character/star1.png" alt=""><img src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/img/character/star0.png" alt=""><img src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/img/character/star0.png" alt=""><img src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/img/character/star0.png" alt=""><img src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/img/character/star0.png" alt=""></dd>
+</dl>
+</div>
+
+<div class="subSec_voice">
+  <a href="./" class="subSec_voicePlay" data-file="/ggst/en/wordpress/wp-content/uploads/2022/01/24飛鳥R♯">
+    <span class="-on">PLAY</span>
+    <span class="-off">STOP</span>
+  </a>
+    <h3>VOICE</h3>
+  <p>Derek Stephen Prince</p>
+  </div>
+
+  <div class="subSec_bgm">
+    <a href="./" class="subSec_bgmPlay" data-file="/ggst/en/wordpress/wp-content/uploads/2022/01/28.The-GravityAsuka-theme_20sec_sample">
+    <span class="-on">PLAY</span>
+    <span class="-off">STOP</span>
+    </a>
+  <h3>BGM</h3>
+  <p>The Gravity</p>
+  </div>
+  
+<p class="subSec_commandList"><a href="/ggst/en/wordpress/wp-content/uploads/2022/01/Commandlisttemplate2_2.00_ENG-24.png" class="commadmodal">COMMAND LIST</a></p>  <p class="subSec_outfit"><a href="outfit/">OUTFITS / ACCESSORIES</a></p>
+
+  <div class="subSec_slide">
+
+
+<div class="swiper-container">
+<div class="swiper-wrapper">
+<div class="swiper-slide"><a href="z5Tpg2AOA3E" class="moviemodal"><img src="http://img.youtube.com/vi/z5Tpg2AOA3E/maxresdefault.jpg" alt=""></a></div><div class="swiper-slide"><a href="d5hHDLCNZLI" class="moviemodal"><img src="http://img.youtube.com/vi/d5hHDLCNZLI/maxresdefault.jpg" alt=""></a></div><div class="swiper-slide"><a href="/ggst/en/wordpress/wp-content/uploads/2023/05/xnNj771Auw_Battle00-1024x576.jpg" class="imgmodal"><picture><img src="/ggst/en/wordpress/wp-content/uploads/2023/05/xnNj771Auw_Battle00-1024x576.jpg" alt=""></picture></a></div><div class="swiper-slide"><a href="/ggst/en/wordpress/wp-content/uploads/2023/05/xnNj771Auw_Battle01-1024x576.jpg" class="imgmodal"><picture><img src="/ggst/en/wordpress/wp-content/uploads/2023/05/xnNj771Auw_Battle01-1024x576.jpg" alt=""></picture></a></div><div class="swiper-slide"><a href="/ggst/en/wordpress/wp-content/uploads/2023/05/xnNj771Auw_Battle04-1024x576.jpg" class="imgmodal"><picture><img src="/ggst/en/wordpress/wp-content/uploads/2023/05/xnNj771Auw_Battle04-1024x576.jpg" alt=""></picture></a></div><div class="swiper-slide"><a href="/ggst/en/wordpress/wp-content/uploads/2023/05/xnNj771Auw_Battle07-1024x576.jpg" class="imgmodal"><picture><img src="/ggst/en/wordpress/wp-content/uploads/2023/05/xnNj771Auw_Battle07-1024x576.jpg" alt=""></picture></a></div></div>
+<nav class="swiper-nav">
+<div class="swiper-button-prev">PREV</div>
+<div class="swiper-pagination"></div>
+<div class="swiper-button-next">NEXT</div>
+</nav>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+<section class="character_archives" data-animate-y>
+<nav class="ln">
+<ul class="filter" style="font-size: 20px;">
+<li><a href="" data-filter="*" class="active">ALL</a></li>
+<li><a href="./" data-filter=".seasonpass5">Season Pass 5</a></li><li><a href="./" data-filter=".season-pass-4">Season Pass 4</a></li><li><a href="./" data-filter=".seasonpass3">Season Pass 3</a></li><li><a href="./" data-filter=".seasonpass2">Season pass 2</a></li><li><a href="./" data-filter=".seasonpass1">Season pass 1</a></li></ul>
+</nav>
+
+<ul class="character_list" data-animate>
+
+
+    
+        <li
+            class="grid-item seasonpass5 new dlc"
+            data-type="Unique"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/rbk/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2026/07/archive_abs.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Unique
+                                                            <em
+                                    style="background-color:#c665c7;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>ROBO-KY</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item seasonpass5 %e6%88%a6%e9%97%98%e3%82%bf%e3%82%a4%e3%83%97 dlc"
+            data-type="Rushdown"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/jam/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2026/05/archive_jam-306x306.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Rushdown
+                                                            <em
+                                    style="background-color:#6d9eeb;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>JAM</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item season-pass-4 %e6%88%a6%e9%97%98%e3%82%bf%e3%82%a4%e3%83%97 new dlc"
+            data-type="Balance"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/luc/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2025/08/qokdhj.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Balance
+                                                            <em
+                                    style="background-color:#ff9900;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>LUCY</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item season-pass-4 %e6%88%a6%e9%97%98%e3%82%bf%e3%82%a4%e3%83%97 dlc"
+            data-type="Balance"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/uni/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2025/05/khfauiy.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Balance
+                                                            <em
+                                    style="background-color:#ff9900;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>UNIKA</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item season-pass-4 %e6%88%a6%e9%97%98%e3%82%bf%e3%82%a4%e3%83%97 dlc"
+            data-type="Zoning"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/ven/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2025/03/adhfjha.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Zoning
+                                                            <em
+                                    style="background-color:#dec372;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>VENOM</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item season-pass-4 %e6%88%a6%e9%97%98%e3%82%bf%e3%82%a4%e3%83%97 dlc"
+            data-type="Unique"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/dzy/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2018/10/archive-ny040fsi2.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Unique
+                                                            <em
+                                    style="background-color:#c665c7;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>DIZZY</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item seasonpass3 %e6%88%a6%e9%97%98%e3%82%bf%e3%82%a4%e3%83%97 dlc"
+            data-type="Power"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/sly/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2024/04/4tg8hdo2.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Power
+                                                            <em
+                                    style="background-color:#ff0f0f;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>SLAYER</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item seasonpass3 %e6%88%a6%e9%97%98%e3%82%bf%e3%82%a4%e3%83%97 dlc"
+            data-type="Unique"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/aba/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2024/03/3uf9vnso76.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Unique
+                                                            <em
+                                    style="background-color:#c665c7;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>A.B.A</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item seasonpass3 dlc"
+            data-type="Rushdown"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/elp/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2023/12/4nf89dcoo3.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Rushdown
+                                                            <em
+                                    style="background-color:#6d9eeb;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>ELPHELT</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item seasonpass3 dlc"
+            data-type="Zoning"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/jhn/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2023/08/archive_4ny9b-6nvi.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Zoning
+                                                            <em
+                                    style="background-color:#dec372;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>JOHNNY</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item seasonpass2 %e6%88%a6%e9%97%98%e3%82%bf%e3%82%a4%e3%83%97 dlc"
+            data-type="Unique"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/ask/"
+                class="active"            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2023/05/xnNj771Auw.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Unique
+                                                            <em
+                                    style="background-color:#c665c7;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>ASUKA R♯</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item seasonpass2 %e6%88%a6%e9%97%98%e3%82%bf%e3%82%a4%e3%83%97 dlc"
+            data-type="Unique"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/bed/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2023/03/5fve3hdwci.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Unique
+                                                            <em
+                                    style="background-color:#c665c7;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>BEDMAN?</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item seasonpass2 %e6%88%a6%e9%97%98%e3%82%bf%e3%82%a4%e3%83%97 dlc"
+            data-type="Balance"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/sin/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2022/11/n5idg73diw3.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Balance
+                                                            <em
+                                    style="background-color:#ff9900;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>SIN</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item seasonpass2 %e6%88%a6%e9%97%98%e3%82%bf%e3%82%a4%e3%83%97 dlc"
+            data-type="Balance"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/bgt/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2022/08/38nd9nd2jd73.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Balance
+                                                            <em
+                                    style="background-color:#ff9900;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>BRIDGET</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item seasonpass1 %e6%88%a6%e9%97%98%e3%82%bf%e3%82%a4%e3%83%97 dlc"
+            data-type="Zoning"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/tst/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2022/03/icon-1ubduiak.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Zoning
+                                                            <em
+                                    style="background-color:#dec372;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>TESTAMENT</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item seasonpass1 dlc"
+            data-type="Balance"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/bkn/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2022/01/94gvos0f.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Balance
+                                                            <em
+                                    style="background-color:#ff9900;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>BAIKEN</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item seasonpass1 %e6%88%a6%e9%97%98%e3%82%bf%e3%82%a4%e3%83%97 dlc"
+            data-type="Shooting"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/cos/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2021/11/82nCeh3s.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Shooting
+                                                            <em
+                                    style="background-color:#6bcee4;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>HAPPY CHAOS</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item seasonpass1 dlc"
+            data-type="Unique"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/jko/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2021/08/jko.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Unique
+                                                            <em
+                                    style="background-color:#c665c7;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>JACK-O'</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item seasonpass1 %e6%88%a6%e9%97%98%e3%82%bf%e3%82%a4%e3%83%97 dlc"
+            data-type="Power"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/gld/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2021/07/gol-306x305.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Power
+                                                            <em
+                                    style="background-color:#ff0f0f;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>GOLDLEWIS</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item"
+            data-type="Rushdown"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/ino/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2021/03/rxx82us-1-306x305.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Rushdown
+                                                            <em
+                                    style="background-color:#6d9eeb;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>I-NO</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item"
+            data-type="Balance"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/anji/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2021/03/anji-306x305.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Balance
+                                                            <em
+                                    style="background-color:#ff9900;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>ANJI</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item"
+            data-type="Rushdown"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/gio/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2020/09/archive_gio.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Rushdown
+                                                            <em
+                                    style="background-color:#6d9eeb;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>GIOVANNA</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item"
+            data-type="One Shot"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/nag/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2020/09/archive_nag.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            One Shot
+                                                            <em
+                                    style="background-color:#cc4125;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>NAGORIYUKI</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item"
+            data-type="Rushdown"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/leo/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2020/09/archive_leo.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Rushdown
+                                                            <em
+                                    style="background-color:#6d9eeb;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>LEO</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item"
+            data-type="Balance"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/ram/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2020/09/archive_ram-1.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Balance
+                                                            <em
+                                    style="background-color:#ff9900;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>RAMLETHAL</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item"
+            data-type="Unique"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/zat/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2020/09/archive_zat.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Unique
+                                                            <em
+                                    style="background-color:#c665c7;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>ZATO</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item"
+            data-type="Rushdown"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/mll/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2020/09/archive_mll.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Rushdown
+                                                            <em
+                                    style="background-color:#6d9eeb;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>MILLIA</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item"
+            data-type="Unique"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/fau/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2020/09/archive_fau.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Unique
+                                                            <em
+                                    style="background-color:#c665c7;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>FAUST</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item"
+            data-type="Power"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/pot/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2020/09/archive_pot.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Power
+                                                            <em
+                                    style="background-color:#ff0f0f;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>POTEMKIN</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item"
+            data-type="Rushdown"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/chp/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2020/09/archive_chp.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Rushdown
+                                                            <em
+                                    style="background-color:#6d9eeb;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>CHIPP</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item"
+            data-type="Zoning"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/axl/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2020/09/archive_axl.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Zoning
+                                                            <em
+                                    style="background-color:#dec372;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>AXL</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item"
+            data-type="Power"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/may/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2020/09/archive_may-1.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Power
+                                                            <em
+                                    style="background-color:#ff0f0f;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>MAY</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item"
+            data-type="Balance"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/kyk/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2020/09/archive_kyk.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Balance
+                                                            <em
+                                    style="background-color:#ff9900;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>KY</h2>
+            </a>
+        </li>
+
+    
+        <li
+            class="grid-item"
+            data-type="Balance"
+        >
+            <a
+                href="https://www.guiltygear.com/ggst/en/character/sol/"
+                            >
+                <span class="img">
+                    <span class="flash">
+
+                                                    <img
+                                src="/ggst/en/wordpress/wp-content/uploads/2020/09/archive.jpg"
+                                alt=""
+                            >
+                        
+                        <i class="korolev">
+                            Balance
+                                                            <em
+                                    style="background-color:#ff9900;"
+                                ></em>
+                                                    </i>
+
+                    </span>
+                </span>
+
+                <h2>SOL</h2>
+            </a>
+        </li>
+
+    
+
+</ul>
+
+<div class="character_list_base"></div>
+
+</section>
+
+<p class="character_arr prev"><a href="#"></a></p>
+<p class="character_arr next"><a href="#"></a></p>
+<!--//contents--></div>
+
+<!--- contents modal -->
+<div id="contentns_modalbg"></div><div id="contentns_modal"></div>
+<!---// contents modal -->
+
+<div class="sp-menu"><ul class="gn">
+    <li class="gn_item -lang -spItem"><a href="/ggst/" class="gn_link -indl"><i>LANGUAGE</i></a>
+    <div class="gn_dropdownLists_wrap">
+        <ul class="gn_dropdownLists">
+            <li class="gn_dropdownLists_item"><a href="/ggst/jp/" data-lang="ja">日本語</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/" data-lang="en">English</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/kr/" data-lang="ko">한국어</a></li>
+        </ul>
+    </div>
+    </li>
+    <li class="gn_item -pcLogo"><a href="/ggst/en/" class="gn_link -home">HOME</a></li>
+    <li class="gn_item"><a href="/ggst/en/character/" class="gn_link -character">CHARACTER</a></li>
+    <li class="gn_item"><a href="/ggst/en/" class="gn_link -indl"><i>MODE</i></a>
+    <div class="gn_dropdownLists_wrap">
+        <ul class="gn_dropdownLists">
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/story/" class="-story">STORY</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/battle/systems/" class="-battle">BATTLE</a></li>
+<!--
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/battle/single/" class="-battle">SINGLE PLAYER</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/battle/online/" class="-battle">ONLINE BATTLE</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/battle/team/" class="-battle">TEAM OF BATTLE</a></li>
+-->
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/figure/" class="-figure">DEGITAL FIGURE</a></li>
+        </ul>
+    </div>
+    </li>
+    <li class="gn_item"><a href="/ggst/en/" class="gn_link -indl -news"><i>NEWS</i></a>
+        <div class="gn_dropdownLists_wrap">
+        <ul class="gn_dropdownLists">
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/news/">NEWS</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/news/post-category/patch/" class="-patch">PATCH NOTES</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/news/post-category/column/" class="-column">FEATURED ARTICLES</a></li>
+        </ul>
         </div>
+    </li>
+    <li class="gn_item"><a href="/ggst/en/" class="gn_link -indl"><i>EVENTS</i></a>
+    <div class="gn_dropdownLists_wrap">
+        <ul class="gn_dropdownLists">
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/eventinfo/" class="-eventinfo">ESPORTS</a></li>
+        </ul>
+    </div>
+    </li>
+    <li class="gn_item"><a href="/ggst/en/" class="gn_link -indl"><i>SPECIAL</i></a>
+    <div class="gn_dropdownLists_wrap">
+        <ul class="gn_dropdownLists">
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/fankit/" class="-fankit">FAN KIT</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/webcomics/" class="-webcomics">WEB COMICS</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/movie/" class="-movie">TRAILERS</a></li>
+            <li class="gn_dropdownLists_item"><a href="https://www.arcsystemworks.com/video-policy/" target="_blank" rel="noopener noreferrer">VIDEO POLICY</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/news/post-951/" class="-faq">FAQ</a></li>
+        </ul>
+    </div>
+    </li>
+
+<!--
+    <li class="gn_item"><a href="/ggst/en/" class="gn_link -indl"><i>INTRODUCTION</i></a>
+    <div class="gn_dropdownLists_wrap">
+        <ul class="gn_dropdownLists">
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/howto/" class="-howto">HOW TO PLAY</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/about/" class="-about">ABOUT GGST</a></li>
+            <li class="gn_dropdownLists_item -turn"><a href="/ggst/en/story/" class="-story">WEB COMICS &amp; STORY</a></li>
+        </ul>
+    </div>
+    </li>
+
+    <li class="gn_item"><a href="/ggst/en/" class="gn_link -indl"><i>COMMUNITY<br>SUPPORT</i></a>
+    <div class="gn_dropdownLists_wrap">
+        <ul class="gn_dropdownLists">
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/fankit/" class="-fankit">FAN KIT</a></li>
+            <li class="gn_dropdownLists_item"><a href="https://www.arcsystemworks.com/video-policy/" target="_blank" rel="noopener noreferrer">VIDEO POLICY</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/news/post-951/" class="-faq">FAQ</a></li>
+        </ul>
+    </div>
+    </li>
+
+    <li class="gn_item"><a href="/ggst/en/movie/" class="gn_link -movie">VIDEO</a></li>
+-->
 
 
 
+    <li class="gn_item -lang"><a href="/ggst/" class="gn_link -indl"><i>LANGUAGE</i></a>
+    <div class="gn_dropdownLists_wrap">
+        <ul class="gn_dropdownLists">
+            <li class="gn_dropdownLists_item"><a href="/ggst/jp/" data-lang="ja">日本語</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/en/" data-lang="en">English</a></li>
+            <li class="gn_dropdownLists_item"><a href="/ggst/kr/" data-lang="ko">한국어</a></li>
+        </ul>
+    </div>
+    </li>
+</ul></div>
+<footer class="sitefooter">
+<!--ul class="links">
+<li><a href="#">ONLINE MANUAL</a></li>
+<li><a href="#">SURVEY</a></li>
+</ul--><p class="lang korolev"><a href="/ggst/"><i></i>SELECT LANGUAGE</a></p>
 
+<ul class="sns">
+<li><a href="http://www.facebook.com/sharer.php?u=http://www.guiltygear.com/ggst/en/character/ask//ggst/en/&amp;t=GUILTY GEAR -STRIVE- OFFICIAL SITE" target="_blank" rel="nofollow" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;">FACEBOOK</a></li>
+<li><a href="https://twitter.com/intent/tweet?url=http://www.guiltygear.com/ggst/en/character/ask//ggst/en/&amp;text=GUILTY GEAR -STRIVE- OFFICIAL SITE&amp;hashtags=GUILTYGEAR,GGST" target="_blank" rel="nofollow">X</a></li>
+</ul>
 
-        <div class="fun-facts-section">
-          <h2>𓆩♡𓆪 Fun Facts 𓆩♡𓆪</h2>
-          <ul class="fun-facts-list">
-            <li>My favorite Vocaloids are Teto and Qi Xuan.</li>
-            <li>I like making the most out of the games I own. I try and 100% my games on Steam.</li>
-          </ul>
-        </div>
+<dl class="korolev">
+    <dt><span>Publisher</span></dt>
+    <dd>ARC SYSTEM WORKS</dd>
+</dl>
 
-        
+<ul class="logos">
+<li><img src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/img/PlayStation_logo.png" alt=""></li>
+<li><img src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/img/ps4_logo_b.png" alt=""></li>
+<li><img src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/img/ps5_logo.png" alt=""></li>
+<li><img src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/img/stm_logo_b.png" alt=""></li>
+<li><img src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/img/xboxxs_logo_b.png" alt="" style="max-height: 37px;height: 7.227vw;"></li>
+<li><img src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/img/xbox1_logo_b.png" alt="" style="max-height: 37px;height: 7.227vw;"></li>
+<li><img src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/img/windows_logo_b.png" alt="" style="max-height: 37px;height: 7.227vw;"></li>
+<li><img src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/img/allnet_p-ras.png" alt=""></li>
+</ul>
 
-        <div class="music-section">
-          <h2>𓆩୨୧𓆪 Stamps 𓆩୨୧𓆪</h2>
-          <p>Stamps are my quick and easy way to express my interests without using words. I know there are a lot of stamps here lol.</p>
-        <br>
+<p class="copyrights">"<img src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/img/PlayStation_logo.png" alt="">", "PlayStation", "<img src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/img/ps4_logo_b.png" alt="">", "<img src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/img/ps5_logo.png" alt="">" and “PS5” are registered trademarks or trademarks of Sony Interactive Entertainment Inc.<br>
+©2020 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.<br>
+Microsoft, the Xbox Sphere mark, the Xbox One logo, Series X|S logo, Xbox One, Xbox Series X, Xbox Series S, Xbox Series X|S and Xbox Game Pass are trademarks of the Microsoft group of companies.</p>
+<p class="copyrights">© ARC SYSTEM WORKS / © 2024 CD PROJEKT S.A. All rights reserved. CD PROJEKT, the CD PROJEKT logo, Cyberpunk, Cyberpunk 2077, the Cyberpunk 2077 logo and Cyberpunk: Edgerunners are trademarks and/or registered trademarks of CD PROJEKT S.A. in the US and/or other countries.</p>
 
-<img src="https://64.media.tumblr.com/5d3528bb356bacb9554ae1b64e9cd3d3/a346318001d56fe4-44/s100x200/9d88506e13e5785453a08f8f89f37d4594db1886.pnj">
+</footer><div class="pagetop"><p><a href="#contents" class="anchor"><i></i>
+<picture>
+<img src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/img/pagetop.png"  alt="pagetop">
+</picture>
+</a></p></div></main>
 
-        <img src="https://64.media.tumblr.com/24b09566f141e591eaeff0ae648259d4/e68c80162b2661b0-df/s250x400/445c17a04ff14330f9873caae884d7b563fc4d01.pnj">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollToPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+<script src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/js/lib.js?2026-06-23-084957"></script>
+<script src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/js/script.js?2026-06-23-084957"></script>
+<script src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/js/inlinemovie.js?2026-06-23-084957"></script>
+<script src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/js/contents_modal.js?2026-06-23-084957"></script>
+<script src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/js/contents_modal.js?2026-06-23-084957"></script>
+<script src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/js/comic.js?2026-06-23-084957"></script>
+<script src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/js/imgmodal.js?2026-06-23-084957"></script>
 
- <img src="https://64.media.tumblr.com/2bd3ec323dea8f34eb14ccdfd78a2c67/772a6c5f5f7c3182-4c/s100x200/c70acb482df709b584556fc5aab4198ea2bc78b2.pnj">
-        <img src="https://64.media.tumblr.com/dd2726d02db3a15aea10a43fab1c8189/2313462277efff0c-8e/s100x200/11b5546df2b31c79bbde4bb28827d4428b1af244.pnj">
-        <img src="https://64.media.tumblr.com/7fadadaba0b2797b35fb9ec53c4d65dc/2313462277efff0c-bd/s100x200/868206029a45d5deea1bc58743842dc942b07a27.pnj">
-        <img src="https://64.media.tumblr.com/14eedd3c2d19f09a0ff84abf3a731f30/772a6c5f5f7c3182-cc/s100x200/400cc2f5004efb8049b71268f6f1bd830ebf91c5.gifv">
-        <img src="https://64.media.tumblr.com/cf187cd9291b3e96a92372ed7efe69a7/f5c1c1f07dc74994-d4/s100x200/ddc03ae870cacb48c952e7fe452ba434b0b27f64.gifv">
-        <img src="https://64.media.tumblr.com/e180a224aeaff8d524c9e0f2aa8c7a03/b18aff3ce9323114-90/s100x200/1106e9a5785d8639b3f15a9cfd0659d38c5f1457.gifv">
-        <img src="https://64.media.tumblr.com/44ce62f3f1d531961adcedc92bf89e84/71f722f6213c1bcd-a3/s100x200/3b9fadf5f3b1a1b9c91c832c6fb1dea452024d6d.pnj">
-        <img src="https://64.media.tumblr.com/c304954d063e49c372bc5d3f32845ec6/68e5ac0423a47ceb-16/s100x200/9e0b8419ff371be026e7e94853fb159956ad9be7.gifv">
-        <img src="https://64.media.tumblr.com/ce15c2eda3f6906730af8a66a516d983/68e5ac0423a47ceb-ee/s100x200/ed32769f7e1296e6cef0553317351b0d6a3dad44.gifv">
-        <img src="https://64.media.tumblr.com/9abc590c4f927af93526517b3798757d/fe9b5cf4d120c8c1-ff/s100x200/946a2fe01fbac8fea928569b7a8c3271ed8532d4.gifv">
-        <img src="https://64.media.tumblr.com/b6ccd8b496abed58077a1f30137b61f0/f943d9890bee0f57-01/s100x200/8a1b17dd0c72cf69503db35e4809e93ca2f91b19.gifv">
-        <img src="https://64.media.tumblr.com/0b778f35e93f168f8f36d9322580ccfd/f943d9890bee0f57-40/s100x200/3d5f5b01d14ccf7d7d8bac05714c8fe944221687.gifv">
-        <img src="https://64.media.tumblr.com/affcae6de97e938a5bfee61bc3694ec7/7335f8922591cbec-5d/s250x400/f06394367ad917d639bea5d3fbe334b9dcf1980e.gifv">
-        <img src="https://64.media.tumblr.com/c50bdf29db30a11b145ffa82f191ed31/3c74d06b377fdc9b-b2/s100x200/97fb2bb90fb707f0ff36f7031c8c90c3a2a1a675.pnj">
-        <img src="https://64.media.tumblr.com/7d2ed8ce30d9cb10f05973c2a70ce218/0f3ad1aff0d9e5ba-8f/s100x200/095b288c0e44ac687235baec7d384b80e7a693da.gifv">
-        <img src="https://64.media.tumblr.com/5e1c82eab347ff9c422c1722644ce1e7/473928ea48888009-66/s100x200/e87c6686cb3942ab258a121817dcc4a64bbc0f57.gifv">
-        <img src="https://64.media.tumblr.com/815e67f128e6934a5a46bb8561344a84/473928ea48888009-4b/s100x200/c5acacd5206cf81486b987b4d370da08d30e9536.pnj">
-        <img src="https://64.media.tumblr.com/9a2d8a9611db23cae3b198956d20f572/c269689ff15e8bee-a5/s100x200/1bab3264c564e8726e23e67f5df128a9db2cb2b8.gifv">
-        <img src="https://64.media.tumblr.com/c93c8d564326d0071c780fe072112a4a/f1413ef45abf2485-de/s100x200/2d1a4fc2c99fe3853575ce031a9f3a2127a806b1.pnj">
-        <img src="https://64.media.tumblr.com/84524e59624acdfb198c6c509a9df9b0/f1413ef45abf2485-9e/s100x200/04fd844727b2f6d4f37cc9986a0cf15d7bb519d7.gifv">
-        <img src="https://64.media.tumblr.com/726eb01911ed4fd92af0f359f1dd7da1/f1413ef45abf2485-44/s100x200/44e5c5076ee4e779cbaf88d1faeeb5ba7516f4d2.gifv">
-        <img src="https://64.media.tumblr.com/9cd3617d28d6f6079bfe77c93744e3ec/2313462277efff0c-a4/s100x200/943624ca6a32464e8ccb7a2c6058dadf366afd24.gifv">
-        <img src="https://64.media.tumblr.com/024f050d6fe8e1a5e3f9b227af476560/2313462277efff0c-0f/s100x200/6e231595747abe1d4a090e0ad50e077f7b3a2bc1.gifv">
-        <img src="https://64.media.tumblr.com/c382246711eb3625b32519dcc214a54f/75e1970698d520db-9e/s100x200/cb74cb1a7803d5445c19c9b4d41bdcde0082aa71.gifv">
-        <img src="https://64.media.tumblr.com/17a2d176bc056a5346e39cdadf672382/0a314c1722fc4072-05/s100x200/0623552e903d37e8e53434088305ecb51cfc5b3b.gifv">
-        <img src="https://64.media.tumblr.com/637a406332ba6e0345aff0b9e0548aa5/86408c0474108007-68/s100x200/7759785f6fc0f1a58f3bdb884fcd2bc6b9172499.gifv">
-        <img src="https://64.media.tumblr.com/0085b38d76e447b413eecd7ea4aa8290/86408c0474108007-a7/s100x200/5960632c0e1ee3154771ee65118cf8407de8fcc2.pnj">
-        <img src="https://64.media.tumblr.com/44abbf299de8e16fc6e0f766c2ff8660/2392e7c1f6f7c3e5-73/s100x200/aa4de1c4257e4c8bdb93b074a6fe50aa03c0f490.gifv">
-        <img src="https://64.media.tumblr.com/ea77be550f835f4d4a87d43928661cda/2392e7c1f6f7c3e5-98/s100x200/ee33e90897f4faa016ba64951a5be71a33766ffe.gifv">
-        <img src="https://64.media.tumblr.com/316e612a6d4bcadd07f221ab19fac5ec/d6d0467adff246c0-f3/s100x200/c039b379478e751863c5cf6db35bafad79c7636b.webp">
-        <img src="https://64.media.tumblr.com/e1dc6dd6c5d20fcd5ecab53d2a61ef68/4638d152ba67b5d9-63/s100x200/beed9ffe0930abc11850ef0f7f1f6b67cc67c5e5.gifv">
-        <img src="https://64.media.tumblr.com/4def1580a5d85454c2450b98b1da1d39/4543c6a1616d17a4-ec/s100x200/42577a9d130742d1d0552b4f53b84a2a4f55fc41.gifv">
-        <img src="https://64.media.tumblr.com/c6818af9fb1763a6f104ceee852716bc/4543c6a1616d17a4-cd/s100x200/25bf297be3809fa4acb7f490acdde600e1968fd3.pnj">
-        <img src="https://64.media.tumblr.com/07934267ea3f4e8e0f3f22a22dda12bf/4543c6a1616d17a4-6d/s100x200/cccc0dab5ee7ad135b554c8a8ecaa9f56f60c7e7.gifv">
-        <img src="https://64.media.tumblr.com/5361fe0bea621d43bb1f5e9f442c04ec/bea578ccfee15413-44/s100x200/90cb3c0c06da285ca051f902aeb4e96f77bc1d35.gifv">
-        <img src="https://64.media.tumblr.com/763f8375ce9268671d3265f0d13636b1/acf30207513d4a6d-51/s100x200/1477c28871b0457494968011900335822f854620.pnj">
-        <img src="https://64.media.tumblr.com/ce574369e384f6718644a99744043c79/acf30207513d4a6d-9d/s100x200/b29d11c4144e488582376b820e962f6c46c049d2.gifv">
-        <img src="https://64.media.tumblr.com/c5867591021d83ab158ee480f6c7258a/99b03e9f0218f144-92/s100x200/e7a16d0e96731dc66ccd505ac17ae45e75143765.gifv">
-        <img src="https://64.media.tumblr.com/e449fb266d0677aa85093d7c736d4887/99b03e9f0218f144-80/s100x200/9e8aebc03c8522390ac57ff5294abd65a040a1b2.gifv">
-        <img src="https://64.media.tumblr.com/5b6a0ba05ddcc60fe5c3b405c9798690/99b03e9f0218f144-f2/s100x200/a8fd8d9c347c76b687e5f0d09a7f7f375aa7d795.gifv">
-        <img src="https://64.media.tumblr.com/3cec65ded310859548a00076239a1b2a/99b03e9f0218f144-ae/s100x200/9963faafe1a47d6fc88ab8ccfa6fb9908c6e1cfc.gifv">
-        <img src="https://64.media.tumblr.com/43bb6511d6154469617d0de75ee093cb/4275bcfcf8ee841f-b9/s100x200/18d76bf2cdd5ce36dc7c36c1c13f99dff58217d0.gifv">
-        <img src="https://64.media.tumblr.com/4c0c0fd3ec6f2af9a627c1a94e799113/ec8f693b87536b40-ff/s100x200/d898d958c05485f99d1741a9558c06ddee9757ba.gifv">
-        <img src="https://64.media.tumblr.com/cbffa6deab28d19aec9b2c33a3308f40/a31d88eb88d4582e-3f/s250x400/07debeaa68539eabae03f5c0ce389a7c2855cb6d.gifv">
-        <img src="https://64.media.tumblr.com/933cb180a827b3a9fe8b365ea4b09854/4cec8525e8c76e66-12/s100x200/cbe76ed80d5215f43578f7e9266d009735d0aa62.pnj">
-<img src="https://64.media.tumblr.com/c37aaeaeb30912068c7d6711e3e81da3/660ffb09a175d47e-d8/s100x200/ae3b5e23a756c500a95fe13108a1c3efa4cb590f.pnj">
-        <img src="https://64.media.tumblr.com/effdbe7ee77308f2d5aabd2cecdfb98a/660ffb09a175d47e-75/s100x200/607f002cd5cbb6bd7a82d9b08e560ebb32f6bf0f.pnj">
-        <img src="https://64.media.tumblr.com/c4313e70bf3d56b8f8ce17313624e6a0/660ffb09a175d47e-dd/s100x200/463f74c7ac7fec60f598791fa2098388c82f18f6.pnj">
-        <img src="https://64.media.tumblr.com/5c6e1481f05c0ba21c37df7b41a81940/660ffb09a175d47e-87/s100x200/f2218e274601e17829c8e90c863ac2e71a2e614a.pnj">
-        <img src="https://64.media.tumblr.com/8c9bb13cd8ed836547c27c70a15ffe49/660ffb09a175d47e-1c/s100x200/379466791f9e06dfd5663b9aa6e0b606296188cb.pnj">
-        <img src="https://64.media.tumblr.com/cf9df62c3d584ce09f16fb36edac3056/c0c22fcf932be2c0-3b/s100x200/8d9428554623a27259113b7a014900c763e144a9.gifv">
-        <img src="https://64.media.tumblr.com/a5a2f0e6a56719e29609be213f773120/4cec8525e8c76e66-d2/s100x200/3cb299d52f573f22c70c5f0b18b4e30b9f964a74.gifv">
-        <img src="https://64.media.tumblr.com/603280bb25174fe4ab92aa165ef7d0a8/6af461a3f6e93104-a0/s100x200/a19fc130a55fa60db989806a1fb08da3dd36b81a.gifv">
-        <img src="https://64.media.tumblr.com/3fca565fc8c902409729b4d6d4ec4fed/c10c854533afad72-b3/s100x200/555f883c208919c12fdb9c3784b02af2ba9e481c.gifv">
-        <img src="https://64.media.tumblr.com/44400c93a930ac90b5a9951fa3bf796d/cf3797b2ac8c3dd7-f9/s100x200/eed71e52ef6771b70f902cfa40c33546feccf099.pnj">
-        <img src="https://64.media.tumblr.com/0526f79b32e16bc6b060379e43c64add/3347c16333dd2347-64/s100x200/0b16d9f0c4898983d4512b347d97cd09e9d9695e.webp">
-        <img src="https://64.media.tumblr.com/35bf4567911159de6cf0b776d23d508c/cff116a3affef81d-1d/s100x200/3871a9cf90f048cb17c3745aab6e4747f6c18802.pnj">
-        <img src="https://64.media.tumblr.com/df2fd35889cd95c4f3091519b7197120/cff116a3affef81d-42/s100x200/73af9e8852cb0fa6d17a174e05f307f18180efe9.pnj">
-        <img src="https://64.media.tumblr.com/244690a352a3c295ad135c2008803537/cff116a3affef81d-95/s100x200/0d1e64c464ad8b0fffa76d8ce7a451aa513ad80a.gifv">
-        <img src="https://64.media.tumblr.com/cbd9b07ef5f9ae9065044f653119014f/cff116a3affef81d-a2/s100x200/1227c892d35c4b9b2b2ec011fd7cf9de9527941c.pnj">
-        <img src="https://64.media.tumblr.com/98ecb927f5d06202eb505b0cb9230e68/cff116a3affef81d-85/s100x200/43818273e86f6577a790fbfb79029bd8c4232ef0.gifv">
-        <img src="https://64.media.tumblr.com/cb8d364d2ff592eed2f43c2c9e9fe4db/cff116a3affef81d-20/s100x200/82148b933e04220db9bc22b7051d3e9c1ead0244.pnj">
-        <img src="https://64.media.tumblr.com/b032dbfa9468afc578e27944f7a79e62/cff116a3affef81d-42/s100x200/97dd79d4bb7489fd907cc682de049fe88f4bef03.pnj">
-        <img src="https://64.media.tumblr.com/a7607d45023514292f1be6da2a4a3f13/941b9c0346d564c0-88/s100x200/0b80616bc18bf403a6520fd996396f3364199381.gifv">
-        <img src="https://64.media.tumblr.com/153f0e344aa4dd64b24e0fca47d549d4/7656b49e737a4985-39/s100x200/9d853584b725a01bd77bf242badb2f71308ac691.webp">
-        <img src="https://64.media.tumblr.com/e6e670d8d30716e71101b02e85e7cfba/7656b49e737a4985-5a/s100x200/337057869bae3153d0ba5dec5a583faba58d8270.webp">
-        <img src="https://64.media.tumblr.com/0ea5d52f269eb764e503f8c4b0ef94b4/b357bd244539d389-80/s100x200/f32bfc6885bdb4b68b3257f2b908ed2f969c1af1.gifv">
-        <img src="https://64.media.tumblr.com/2d03f734a2c252d77e4d12cdb473e32c/b357bd244539d389-8a/s100x200/d17f2b2596c959ec3846178e8258e14c5dc8a67e.webp">
-        <img src="https://64.media.tumblr.com/bdc70c806425f15d473dd0d73ff1baed/d12e4f119db748ca-0e/s100x200/b77ba5c2c8c5bf034eda8170fc90610f0b56d9c2.pnj">
-        <img src="https://64.media.tumblr.com/c5899391cf17f825fc5f0490d3985f97/d12e4f119db748ca-6a/s100x200/12546806b60fc6f71f42beffc872c306c81a9ef8.pnj">
-        <img src="https://64.media.tumblr.com/2b048aa96c72ee15672085db5c745cf7/f0d9d15676507423-51/s100x200/eade49384eb1c7f2cdfc0ce35a2bb9516763e838.gifv">
-        <img src="https://64.media.tumblr.com/2bdce979cb98146b3ad4d23c3a4e540f/65ab56dd16d6c002-ee/s100x200/4768d7ef3dceda093b124128ad4795ce72049d0f.gifv">
-        <img src="https://64.media.tumblr.com/a4b8d6495d1270b0d98bb1bdc80e5689/54f5e685b153c663-ba/s100x200/5fddcfef8b824a7eecd5bbb176048e47d4d0893b.gifv">
-        <img src="https://64.media.tumblr.com/e08f1c2e0072ffefa0a86dfa2fac288e/649ccefde1a7ecec-12/s100x200/37e16750195cbbf731fe2f181f297c271cab7daf.gifv">
-        <img src="https://64.media.tumblr.com/d6f83b8ef4b919755e4cae063f2658a1/649ccefde1a7ecec-a7/s100x200/356a73b84af1908e786bd8986e973d3657453ffc.gifv">
-        <img src="https://64.media.tumblr.com/faa105f06da412eb88415d349d8f8135/649ccefde1a7ecec-1e/s100x200/976393cdd8fb8d67a604b70c2b690b49e896c080.gifv">
-        <img src="https://64.media.tumblr.com/74965d7c91e0616ed24438842e16d994/649ccefde1a7ecec-d4/s100x200/ab7ffada0a8c100f1afac6b4358c10ff6747525c.gifv">
-        <img src="https://64.media.tumblr.com/a66da213cdd427779deb44d0be5582f7/649ccefde1a7ecec-75/s100x200/02f334e4f47a94de1ce0e2290d016e687563fdae.gifv">
-        <img src="https://64.media.tumblr.com/6f34509bb2aa17af18ed3a1b797b8c4c/649ccefde1a7ecec-5d/s100x200/440da2e01737726b9c24388ccfefeb6352a259c2.gifv">
-        <img src="https://64.media.tumblr.com/0077d4c1c6427c9a5a0ec1c678f17597/36bf13b50e13d6e7-a9/s100x200/44252ba2fb70975fbe25a6599ff358e96a9fb4ef.gifv">
-        <img src="https://64.media.tumblr.com/14ab5be13ebda45168b0b8a8ec0da02a/0dc1231fa6f62c65-19/s100x200/88b3e6aa4a7c15c0647734823e9d030c45a5a453.gifv">
-        <img src="https://64.media.tumblr.com/83cc8ecaf1bbd6345d0c629f421dc22b/b1719f79dc7b65e8-b2/s100x200/23af942c29236cf792d631bfc2f6eab001c8c47b.gifv">
-        <img src="https://64.media.tumblr.com/3124c14c6ce9a102f7311fd39495fbdf/5f0410eb4adb23f3-53/s100x200/c3d8857df42eacce262ec420d6fd141e41d5c646.pnj">
-        <img src="https://64.media.tumblr.com/76643b5af7f0dbd1f3f7a1e6771d0def/960d478f8896a53a-92/s100x200/df8ab2148b74a2c5e6fc049d7bbbf4a40781a211.pnj">
-        <img src="https://64.media.tumblr.com/a1bbb5b44d444c8233c1727b5ab36c8e/b6dfc8bc53ff6bd5-b0/s100x200/77c1ee5167ac9425882040e84e1da565bdbc0a34.pnj">
-        <img src="https://64.media.tumblr.com/37cedb9eb72adae018c6397fdf254efe/6a4ab4b6fd791e7b-1b/s100x200/39595ed668033518c575a08bd268ca70c487a792.gifv">
-        <img src="https://64.media.tumblr.com/e183fddef7bd3b9328754d04ab15585a/6a4ab4b6fd791e7b-5c/s100x200/508fcd440d48ca2d23a09956d0f3fe20a68f91ff.gifv">
-        <img src="https://64.media.tumblr.com/2a9a25f3c10274ef6596e1d9a19c2a00/8e768faae6e164f8-af/s100x200/bd31f4152a8837c82abe669cf7c3ce7ccd548b6b.gifv">
-        <img src="https://64.media.tumblr.com/f1fc079ac25af96fc127272b037911af/8e768faae6e164f8-6e/s100x200/1a251d05831e18b55e0987942e8514f414fd4aac.gifv">
-        <img src="https://64.media.tumblr.com/b0dc4daf448100c40156427bbd761d55/40d6c983f54b2d4a-41/s100x200/4fde9ff3cbff53bedd7a55301dab6dc1f491dc39.pnj">
-        <img src="https://64.media.tumblr.com/114656cab20cc49638d7d293192ab885/c60c4778a7405a12-a4/s100x200/9faaea62e707e80b2d3a61a8f39c8b64c928ef2a.pnj">
-        <img src="https://64.media.tumblr.com/50d2bc70e1442bd7ec3439a724663b96/dae42890d05b9a7f-2a/s100x200/f5d77745b1a05bf4ef9a9e5d4c6c585d1cc827d5.pnj">
-        <img src="https://64.media.tumblr.com/eac2991887b0d616217a13e98868e8f3/dae42890d05b9a7f-d2/s100x200/e7dceab46ce64c0092267e28543525e9dce85794.pnj">
-        <img src="https://64.media.tumblr.com/bab544daef57ab939901adf390abeac6/1e055556e8ef773d-69/s100x200/f9df7075635c3304ebda3b9657948ac0234c8ffd.pnj">
-        <img src="https://64.media.tumblr.com/8b3a8b36483a14d89973f63492694689/704c7934ccdb112d-30/s100x200/5ace288b50a299a130606ac6f1a03bf01ca8789e.pnj">
-        <img src="https://64.media.tumblr.com/3a60032174b39e0dae86494fdc699aaf/704c7934ccdb112d-be/s100x200/4d902009dc8bbfabeee053291878b3c3a43f0803.pnj">
-        <img src="https://64.media.tumblr.com/5a5d610bed4f0aa17eb9a2736a4dcb37/a42d46b711f8452d-30/s100x200/bb689709f5444aacca465e078a12170dcf21ef80.gifv">
-        <img src="https://64.media.tumblr.com/823f28bdfa1c3fcf839a3fba152cbfd0/8fb2527e26ea09fc-ca/s100x200/6c341af5213b4e4801e1d115b21a6bb824ec347b.gifv">
-        <img src="https://64.media.tumblr.com/448c1d9c1f43dd5d71fe124765295151/370a935e78c848f4-86/s100x200/4c2af0e71ee822bf9e93dedd48efa79f7a66206b.pnj">
-        <img src="https://64.media.tumblr.com/e59ba62b38fad770ce675993fbed4814/f8f74c137b50e75d-81/s100x200/4b5c37742c501aec729f7911914468c1cde64d47.pnj">
-        <img src="https://64.media.tumblr.com/80be0090062c33cb473f679c32543526/457a7a421a69d84a-5a/s100x200/767ce565d17639d2e60170169583b66c9d4662ab.gifv">
-        <img src="https://64.media.tumblr.com/d68ab9e912c377b1f05da0982d58a970/885472e624ae6f90-88/s100x200/1eba5c762fd8cf27290a725f00909ef0bc009fa1.gifv">
-        <img src="https://64.media.tumblr.com/cee68d41766982839a80a2b2ccf7aa83/885472e624ae6f90-bc/s100x200/ef75a262b34adead4f3f5b57a1b597dc72b95ba9.gifv">
-        <img src="https://64.media.tumblr.com/fd072298b1e95a21af24389560b7074b/b7d0cae654aac1b2-71/s100x200/1945a5e7fef4da3eaf2d2828e5ed3c43b22c91e7.pnj">
-        <img src="https://64.media.tumblr.com/ee23be6378fca4436c36f0d5ecef3892/83a6d095cf41b767-03/s100x200/aeb6569e7ac9f11160314d685ea4ad036623e4cb.gifv">
-        <img src="https://64.media.tumblr.com/7f2576a324cafd93f0f2a09082b95e74/1ea9169a25d98878-79/s100x200/42be6c66c872e0ea0561f15792dc778aa314fb17.gifv">
-        <img src="https://64.media.tumblr.com/b25281ec6b9aea4971f09778a846e6d0/1f9bf543eacc54cb-a5/s100x200/f3afbe69bf445f609410b102f4ec6da57a81242b.gifv">
-        <img src="https://64.media.tumblr.com/8cb51c3041ce972343b2d9067d07875c/1f9bf543eacc54cb-1e/s100x200/7a64d03713029413407d232c5b34c0e00beec6b0.pnj">
-        <img src="https://64.media.tumblr.com/cdc2bc67701c9bd8053d9e9d89970a1c/b22e11b13a7cb665-97/s100x200/8b82f39115092dbc46db38f2a443caedd5164534.pnj">
-<img src="https://adriansblinkiecollection.neocities.org/stamps/d81.png">
-<img src="https://adriansblinkiecollection.neocities.org/stamps/d59.png">
-<img src="https://adriansblinkiecollection.neocities.org/stamps/d3.gif">
-<img src="https://adriansblinkiecollection.neocities.org/stamps/b18.png">
-<img src="https://adriansblinkiecollection.neocities.org/stamps/k18.gif">
-<img src="https://adriansblinkiecollection.neocities.org/stamps/k19.gif">
-<img src="https://adriansblinkiecollection.neocities.org/stamps/e34.gif">
-<img src="https://adriansblinkiecollection.neocities.org/stamps/e35.gif">
-<img src="https://adriansblinkiecollection.neocities.org/stamps/a69.gif">
-<img src="https://pixelsafari.neocities.org/stamps/more/soda.gif">
-<img src="https://pixelsafari.neocities.org/stamps/more/fruits.png">
-<img src="https://pixelsafari.neocities.org/stamps/ferret.png">
-<img src="https://pixelsafari.neocities.org/stamps/snail.png">
-<img src="https://pixelsafari.neocities.org/stamps/more/book.gif">
-<img src="https://external-media.spacehey.net/media/sL3zBxpYsUjbyHSqd5nLmG3yF9eEgw07vM7_2WbStjd8=/https://heroin-bob.github.io/SpaceHeyLayoutEditor/images/stamps/STAMP%20(247).png">
-<img src="https://external-media.spacehey.net/media/spWt4y3uq2ZCEkLHM0KpK3qoxpFu007GxYb4FO8AFJYA=/https://files.catbox.moe/kbr0ju.png">
-<img src="https://external-media.spacehey.net/media/slNojLK9LEp73bJ4WSF3hysUPgeVIl8Udz2N3N9Ohldg=/https://files.catbox.moe/sk77bj.png">
-<img src="https://external-media.spacehey.net/media/sjNESnuJK-4rB4U1fwagrxRIczqLx85-vPF5y6vzhfJ0=/https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5d1a8c88-6303-48a3-9218-9a1bbc9eaa32/d5082ta-6a8ea5e0-3c7b-4935-ac11-96737ec47a8a.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVkMWE4Yzg4LTYzMDMtNDhhMy05MjE4LTlhMWJiYzllYWEzMlwvZDUwODJ0YS02YThlYTVlMC0zYzdiLTQ5MzUtYWMxMS05NjczN2VjNDdhOGEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.I7W2Sw9i8b8lyEDhl3OMUm9nIyCY3DsDvfJPgzh4jaE">
-<img src="https://external-media.spacehey.net/media/s-WVcw84bnuA_J8xQXKHyqIt0Ugg3wldvOSsZ8FCBdw8=/https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4ec4f048-4b33-494a-86da-42eda8e8b53e/d60nkus-7168550a-44ca-40dc-802e-f6ebca06faff.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzRlYzRmMDQ4LTRiMzMtNDk0YS04NmRhLTQyZWRhOGU4YjUzZVwvZDYwbmt1cy03MTY4NTUwYS00NGNhLTQwZGMtODAyZS1mNmViY2EwNmZhZmYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.J45vKd3SboyfuJHNiGfYaIgAqfo_knVfJQxNnWKzjfY">
-<img src="https://external-media.spacehey.net/media/s5tiBUFrYoUA4HBl7hm4FOnoH_DH_JOJ1giVNOoln7gw=/https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b7099e9a-987a-4d90-97af-a9185569b5fc/d49qdgg-f47321e6-4b98-42d8-9819-61aeb9145631.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2I3MDk5ZTlhLTk4N2EtNGQ5MC05N2FmLWE5MTg1NTY5YjVmY1wvZDQ5cWRnZy1mNDczMjFlNi00Yjk4LTQyZDgtOTgxOS02MWFlYjkxNDU2MzEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.AADwS4XAfKA9LTpljNBs53rcqOW7uH_C3B-mr0-pUeQ">
-<img src="https://external-media.spacehey.net/media/sQTMei8XAI4WKxkPyYbkK3qd-mkRA4itUooSux1WZNyc=/https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b7099e9a-987a-4d90-97af-a9185569b5fc/d486xjy-c8f32aae-f421-4dc0-bad6-5840c03bb966.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2I3MDk5ZTlhLTk4N2EtNGQ5MC05N2FmLWE5MTg1NTY5YjVmY1wvZDQ4NnhqeS1jOGYzMmFhZS1mNDIxLTRkYzAtYmFkNi01ODQwYzAzYmI5NjYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.tc2vC8ROS7I6tDswqlRCLZpilumnUCetFIQmetw8JZ0">
-<img src="https://external-media.spacehey.net/media/saZqRyk9qeSTWt74saeBaTYZ9utXE1GzKcgl8MeVbRLs=/https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a7b64b29-89f3-4aa2-bcd3-e9bb3baf9f4f/d2hzfor-b54b8dc5-c5ac-433e-bf3d-fd1ca9aeac62.png/v1/fill/w_99,h_56/_explaining__stamp_by_sonira_stamps_d2hzfor-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTYiLCJwYXRoIjoiXC9mXC9hN2I2NGIyOS04OWYzLTRhYTItYmNkMy1lOWJiM2JhZjlmNGZcL2QyaHpmb3ItYjU0YjhkYzUtYzVhYy00MzNlLWJmM2QtZmQxY2E5YWVhYzYyLnBuZyIsIndpZHRoIjoiPD05OSJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.hI8Lvzu71dAP-3OHvy1Hn-fhXrmRDO6bWoiIWRwBySo">
-<img src="https://external-media.spacehey.net/media/s-6Hxi68_QLIRgm4uUCVeUkNwCzpAdee0but0-tpcnsE=/https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a1802d07-f12d-424d-95ac-b06ef8821e15/d33cozy-87eda61e-d3dc-4ad8-a06c-13b379c7715d.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ExODAyZDA3LWYxMmQtNDI0ZC05NWFjLWIwNmVmODgyMWUxNVwvZDMzY296eS04N2VkYTYxZS1kM2RjLTRhZDgtYTA2Yy0xM2IzNzljNzcxNWQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RvlVE8QhRitDoZ9ctYNVvPR2O7RQ_RbkFU8zbVU4o6k">
-<img src="https://blinkie-net.neocities.org/Stamps/gumball.gif">
-<img src="https://blinkie-net.neocities.org/Stamps/gumballdance.gif">
-<img src="https://blinkie-net.neocities.org/Stamps/1/attack.png">
-<img src="https://blinkie-net.neocities.org/Stamps/2/orelsad.gif">
-<img src="https://blinkie-net.neocities.org/Stamps/3/AHHHHHHHHHHHH.gif">
-<img src="https://blinkie-net.neocities.org/Stamps/3/:3.png">
-<img src="https://blinkie-net.neocities.org/Stamps/4/bubbline.png">
-<img src="https://blinkie-net.neocities.org/Stamps/5/29.gif">
-<img src="https://blinkie-net.neocities.org/Stamps/8/hana.png">
-<img src="https://blinkie-net.neocities.org/Stamps/8/kangel.jpg">
-<img src="https://blinkie-net.neocities.org/Stamps/8/wallace.jpg">
-<img src="https://i.postimg.cc/gJ22k7ZM/mesmerizer-miku-stamp.webp">
-<img src="https://i.postimg.cc/G2X9FRRw/mesmerizer-teto-stamp.webp">
-<img src="https://i.postimg.cc/B6VwP8Xr/miku-miku-beam-stamp.gif">
-<img src="https://64.media.tumblr.com/57e92c5ae3314ea4551ab359d23a63dd/acda0ea5737c844f-dd/s100x200/8c0a084789cf51357abecacab593e7c6ace8ad99.gifv">
+<div id="imgmodalbg"></div>
+<div id="imgmodal"><p class="close"><a href="#close">close</a></p>
+<article></article>
+</div><script src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/js/character_list.js?2026-06-23-084957"></script>
+<script src="https://www.guiltygear.com/ggst/en/wordpress/wp-content/themes/ggst/js/character.js?2026-06-30-073359"></script>
 
-
-
-
-
-
-
-
-        </div>
-
-      </div>
-    </section>
-
-
-
-  </main>
-
-  <script src="script.js"></script>
 </body>
 </html>
